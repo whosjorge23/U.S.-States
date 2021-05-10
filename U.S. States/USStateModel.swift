@@ -11,4 +11,5 @@ struct StateUS: Codable, Identifiable {
     let id : String
     let name : String
     let date : String
+    let fact : String
 }
