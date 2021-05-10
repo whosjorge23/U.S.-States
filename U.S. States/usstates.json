@@ -1,0 +1,252 @@
+[
+  {
+    "id" : "delaware",
+    "name" : "Delaware",
+    "date" : "December 7, 1787",
+  },
+  {
+    "id" : "pennsylvania",
+    "name" : "Pennsylvania",
+    "date" : "December 12, 1787",
+  },
+  {
+    "id" : "newjersey",
+    "name" : "New Jersey",
+    "date" : "December 18, 1787",
+  },
+  {
+    "id" : "georgia",
+    "name" : "Georgia",
+    "date" : "January 2, 1788",
+  },
+  {
+    "id" : "connecticut",
+    "name" : "Connecticut",
+    "date" : "January 9, 1788",
+  },
+  {
+    "id" : "massachusetts",
+    "name" : "Massachusetts",
+    "date" : "February 6, 1788",
+  },
+  {
+    "id" : "maryland",
+    "name" : "Maryland",
+    "date" : "April 28, 1788",
+  },
+  {
+    "id" : "southcarolina",
+    "name" : "South Carolina",
+    "date" : "May 23, 1788",
+  },
+  {
+    "id" : "newhampshire",
+    "name" : "New Hampshire",
+    "date" : "June 21, 1788",
+  },
+  {
+    "id" : "virginia",
+    "name" : "Virginia",
+    "date" : "June 25, 1788",
+  },
+  {
+    "id" : "newyork",
+    "name" : "New York",
+    "date" : "July 26, 1788",
+  },
+  {
+    "id" : "northcarolina",
+    "name" : "North Carolina",
+    "date" : "November 21, 1789",
+  },
+  {
+    "id" : "rhodeisland",
+    "name" : "Rhode Island",
+    "date" : "May 29, 1790",
+  },
+  {
+    "id" : "vermont",
+    "name" : "Vermont",
+    "date" : "March 4, 1791",
+  },
+  {
+    "id" : "kentucky",
+    "name" : "Kentucky",
+    "date" : "June 1, 1792",
+  },
+  {
+    "id" : "tennessee",
+    "name" : "Tennessee",
+    "date" : "June 1, 1796",
+  },
+  {
+    "id" : "ohio",
+    "name" : "Ohio",
+    "date" : "March 1, 1803",
+  },
+  {
+    "id" : "louisiana",
+    "name" : "Louisiana",
+    "date" : "April 30, 1812",
+  },
+  {
+    "id" : "indiana",
+    "name" : "Indiana",
+    "date" : "December 11, 1816",
+  },
+  {
+    "id" : "mississippi",
+    "name" : "Mississippi",
+    "date" : "December 10, 1817",
+  },
+  {
+    "id" : "illinois",
+    "name" : "Illinois",
+    "date" : "December 3, 1818",
+  },
+  {
+    "id" : "alabama",
+    "name" : "Alabama",
+    "date" : "December 14, 1819",
+  },
+  {
+    "id" : "maine",
+    "name" : "Maine",
+    "date" : "March 15, 1820",
+  },
+  {
+    "id" : "missouri",
+    "name" : "Missouri",
+    "date" : "August 10, 1821",
+  },
+  {
+    "id" : "arkansas",
+    "name" : "Arkansas",
+    "date" : "June 15, 1836",
+  },
+  {
+    "id" : "michigan",
+    "name" : "Michigan",
+    "date" : "January 26, 1837",
+  },
+  {
+    "id" : "florida",
+    "name" : "Florida",
+    "date" : "March 3, 1845",
+  },
+  {
+    "id" : "texas",
+    "name" : "Texas",
+    "date" : "December 29, 1845",
+  },
+  {
+    "id" : "iowa",
+    "name" : "Iowa",
+    "date" : "December 28, 1846",
+  },
+  {
+    "id" : "wisconsin",
+    "name" : "Wisconsin",
+    "date" : "May 29, 1848",
+  },
+  {
+    "id" : "california",
+    "name" : "California",
+    "date" : "September 9, 1850",
+  },
+  {
+    "id" : "minnesota",
+    "name" : "Minnesota",
+    "date" : "May 11, 1858",
+  },
+  {
+    "id" : "oregon",
+    "name" : "Oregon",
+    "date" : "February 14, 1859",
+  },
+  {
+    "id" : "kansas",
+    "name" : "Kansas",
+    "date" : "January 29, 1861",
+  },
+  {
+    "id" : "westvirginia",
+    "name" : "West Virginia",
+    "date" : "June 20, 1863",
+  },
+  {
+    "id" : "nevada",
+    "name" : "Nevada",
+    "date" : "October 31, 1864",
+  },
+  {
+    "id" : "Nebraska",
+    "name" : "Nebraska",
+    "date" : "March 1, 1867",
+  },
+  {
+    "id" : "Colorado",
+    "name" : "Colorado",
+    "date" : "August 1, 1876",
+  },
+  {
+    "id" : "northdakota",
+    "name" : "North Dakota",
+    "date" : "November 2, 1889",
+  },
+  {
+    "id" : "southdakota",
+    "name" : "South Dakota",
+    "date" : "November 2, 1889",
+  },
+  {
+    "id" : "montana",
+    "name" : "Montana",
+    "date" : "November 8, 1889",
+  },
+  {
+    "id" : "washington",
+    "name" : "Washington",
+    "date" : "November 11, 1889",
+  },
+  {
+    "id" : "idaho",
+    "name" : "Idaho",
+    "date" : "July 3, 1890",
+  },
+  {
+    "id" : "wyoming",
+    "name" : "Wyoming",
+    "date" : "July 10, 1890",
+  },
+  {
+    "id" : "utah",
+    "name" : "Utah",
+    "date" : "January 4, 1896",
+  },
+  {
+    "id" : "oklahoma",
+    "name" : "Oklahoma",
+    "date" : "November 16, 1907",
+  },
+  {
+    "id" : "newmexico",
+    "name" : "New Mexico",
+    "date" : "January 6, 1912",
+  },
+  {
+    "id" : "arizona",
+    "name" : "Arizona",
+    "date" : "February 14, 1912",
+  },
+  {
+    "id" : "alaska",
+    "name" : "Alaska",
+    "date" : "January 3, 1959",
+  },
+  {
+    "id" : "hawaii",
+    "name" : "Hawaii",
+    "date" : "August 21, 1959",
+  },
+]

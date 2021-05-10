@@ -11,6 +11,10 @@
 		EDCAA95826494A4A001FEF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA95726494A4A001FEF33 /* ContentView.swift */; };
 		EDCAA95A26494A50001FEF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCAA95926494A50001FEF33 /* Assets.xcassets */; };
 		EDCAA95D26494A50001FEF33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCAA95C26494A50001FEF33 /* Preview Assets.xcassets */; };
+		EDCAA96626496513001FEF33 /* usstates.json in Resources */ = {isa = PBXBuildFile; fileRef = EDCAA96526496513001FEF33 /* usstates.json */; };
+		EDCAA96A2649692D001FEF33 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA9692649692D001FEF33 /* CodableBundleExtension.swift */; };
+		EDCAA97126496B7E001FEF33 /* USStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA97026496B7E001FEF33 /* USStateModel.swift */; };
+		EDCAA97626496F80001FEF33 /* USStateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA97526496F80001FEF33 /* USStateListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		EDCAA95926494A50001FEF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDCAA95C26494A50001FEF33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDCAA95E26494A50001FEF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCAA96526496513001FEF33 /* usstates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usstates.json; sourceTree = "<group>"; };
+		EDCAA9692649692D001FEF33 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		EDCAA97026496B7E001FEF33 /* USStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStateModel.swift; sourceTree = "<group>"; };
+		EDCAA97526496F80001FEF33 /* USStateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStateListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				EDCAA95526494A4A001FEF33 /* U_S__StatesApp.swift */,
 				EDCAA95726494A4A001FEF33 /* ContentView.swift */,
+				EDCAA9692649692D001FEF33 /* CodableBundleExtension.swift */,
+				EDCAA97026496B7E001FEF33 /* USStateModel.swift */,
+				EDCAA97526496F80001FEF33 /* USStateListView.swift */,
+				EDCAA96526496513001FEF33 /* usstates.json */,
 				EDCAA95926494A50001FEF33 /* Assets.xcassets */,
 				EDCAA95E26494A50001FEF33 /* Info.plist */,
 				EDCAA95B26494A50001FEF33 /* Preview Content */,
@@ -127,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCAA95D26494A50001FEF33 /* Preview Assets.xcassets in Resources */,
+				EDCAA96626496513001FEF33 /* usstates.json in Resources */,
 				EDCAA95A26494A50001FEF33 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCAA97126496B7E001FEF33 /* USStateModel.swift in Sources */,
 				EDCAA95826494A4A001FEF33 /* ContentView.swift in Sources */,
 				EDCAA95626494A4A001FEF33 /* U_S__StatesApp.swift in Sources */,
+				EDCAA97626496F80001FEF33 /* USStateListView.swift in Sources */,
+				EDCAA96A2649692D001FEF33 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
