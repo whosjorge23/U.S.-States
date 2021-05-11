@@ -22,7 +22,7 @@ struct USStateListView: View {
                 Text(stateOfAmerica.name)
                     .font(.title2)
                     .fontWeight(.heavy)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.yellow)
                 Text(stateOfAmerica.date)
                     .font(.footnote)
                     .multilineTextAlignment(.leading)

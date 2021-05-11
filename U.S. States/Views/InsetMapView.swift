@@ -9,13 +9,14 @@ import SwiftUI
 import MapKit
 
 struct InsetMapView: View {
+    
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.6000, longitude: -95.6650), span: MKCoordinateSpan(latitudeDelta: 30.0, longitudeDelta: 30.0))
     
     //MARK: - BODY
     var body: some View {
         Map(coordinateRegion: $region)
             .overlay(NavigationLink(
-                        destination: ContentView(),
+                        destination: MapView(),
                         label: {
                             HStack {
                                 Image(systemName: "mappin.circle")

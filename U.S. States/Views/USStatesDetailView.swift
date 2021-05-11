@@ -27,17 +27,33 @@ struct USStatesDetailView: View {
                     .padding(.vertical, 8)
                     .foregroundColor(.primary)
                     .background(
-                        Color.accentColor
+                        Color.yellow
                             .frame(height: 6)
                             .offset(y: 24)
                     )
                 
                 //HEADLINE
-                Text(stateOfAmerica.date)
-                    .font(.headline)
-                    .multilineTextAlignment(.leading)
-                    .foregroundColor(.accentColor)
-                    .padding(.horizontal)
+                VStack(alignment: .center, spacing: 10, content: {
+                    HeadlineView(headlineTitle: "Date of Ammission:", headlineText: "\(stateOfAmerica.date)")
+                    HeadlineView(headlineTitle: "Nickname(s):", headlineText: "\(stateOfAmerica.nickname)")
+                    HeadlineView(headlineTitle: "Motto(s):", headlineText: "\(stateOfAmerica.motto)")
+                })
+                .font(.headline)
+                .multilineTextAlignment(.leading)
+                .padding(.horizontal)
+                
+                
+                    
+                
+                //Seal
+                HeaderView(headingImage: "circle", headingText: "Seal")
+                GroupBox {
+                    TabView {
+                        Image("Seal_of_\(stateOfAmerica.name)")
+                    }//: TabView
+                    .tabViewStyle(PageTabViewStyle())
+                    .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
+                }//: GroupBox
                 
                 //DID YOU KNOW
                 HeaderView(headingImage: "questionmark.circle", headingText: "Did you Know?")
