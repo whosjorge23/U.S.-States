@@ -8,6 +8,7 @@
     "longitude" : -75.4013315,
     "nickname" : "The First State; The Small Wonder; Blue Hen State; The Diamond State",
     "motto" : "Liberty and Independence",
+    "capital" : "Dover",
   },
   {
     "id" : "pennsylvania",
@@ -18,6 +19,7 @@
     "longitude" : -77.7278831,
     "nickname" : "Keystone State; Quaker State",
     "motto" : "Virtue, Liberty and Independence",
+    "capital" : "Harrisburg",
   },
   {
     "id" : "newjersey",
@@ -28,6 +30,7 @@
     "longitude" : -74.4041622,
     "nickname" : "The Garden State",
     "motto" : "Liberty and prosperity",
+    "capital" : "Trenton",
   },
   {
     "id" : "georgia",
@@ -37,7 +40,8 @@
     "latitude" : 32.3293809,
     "longitude" : -83.1137366,
     "nickname" : "Peach State; Empire State of the South",
-    "motto" : "Wisdom, Justice, Moderation"
+    "motto" : "Wisdom, Justice, Moderation",
+    "capital" : "Atlanta",
   },
   {
     "id" : "connecticut",
@@ -48,6 +52,7 @@
     "longitude" : -72.7342163,
     "nickname" : "The Constitution State (official); The Nutmeg State; The Provisions State; The Land of Steady Habits",
     "motto" : "Qui transtulit sustinet (Latin), He who transplanted still sustains",
+    "capital" : "Hartford",
   },
   {
     "id" : "massachusetts",
@@ -58,6 +63,7 @@
     "longitude" : -71.06285095214844,
     "nickname" : "The Bay State (official); The Pilgrim State; The Puritan State; The Old Colony State; The Baked Bean State",
     "motto" : "Ense petit placidam sub libertate quietem (Latin), By the sword we seek peace, but peace only under liberty",
+    "capital" : "Boston",
   },
   {
     "id" : "maryland",
@@ -68,6 +74,7 @@
     "longitude" : -76.9382069,
     "nickname" : "Old Line State; Free State; Little America; America in Miniature",
     "motto" : "Strong Deeds, Gentle Words",
+    "capital" : "Annapolis",
   },
   {
     "id" : "southcarolina",
@@ -78,6 +85,7 @@
     "longitude" : -80.4363743,
     "nickname" : "The Palmetto State",
     "motto" : "Dum spiro spero(Latin), While I breathe, I hope; Animis opibusque parati(Latin), Prepared in mind and resources",
+    "capital" : "Columbia",
   },
   {
     "id" : "newhampshire",
@@ -88,6 +96,7 @@
     "longitude" : -71.6553992,
     "nickname" : "The Granite State; The White Mountain State",
     "motto" : "Live Free or Die",
+    "capital" : "Concord",
   },
   {
     "id" : "virginia",
@@ -98,6 +107,7 @@
     "longitude" : -78.4927721,
     "nickname" : "Old Dominion, Mother of Presidents",
     "motto" : "Sic semper tyrannis(Latin), Thus Always to Tyrants",
+    "capital" : "Richmond",
   },
   {
     "id" : "newyork",
@@ -107,7 +117,8 @@
     "latitude" : 40.7127281,
     "longitude" : -74.0060152,
     "nickname" : "The Empire State",
-    "motto" : "Excelsior (Latin), Ever upward",
+    "motto" : "Excelsior(Latin), Ever upward",
+    "capital" : "Albany",
   },
   {
     "id" : "northcarolina",
@@ -118,6 +129,7 @@
     "longitude" : -79.0392919,
     "nickname" : "Old North State; Tar Heel State",
     "motto" : "Esse quam videri(Latin), To be, rather than to seem",
+    "capital" : "Raleigh",
   },
   {
     "id" : "rhodeisland",
@@ -128,6 +140,7 @@
     "longitude" : -71.5992372,
     "nickname" : "The Ocean State; Little Rhody",
     "motto" : "Hope",
+    "capital" : "Providence",
   },
   {
     "id" : "vermont",
@@ -138,6 +151,7 @@
     "longitude" : -72.5002608,
     "nickname" : "The Green Mountain State",
     "motto" : "Freedom and Unity; Stella quarta decima fulgeat(Latin), May the 14th star shine bright",
+    "capital" : "Montpelier",
   },
   {
     "id" : "kentucky",
@@ -148,6 +162,7 @@
     "longitude" : -85.1551411,
     "nickname" : "Bluegrass State",
     "motto" : "United we stand, divided we fall; Deo gratiam habeamus(Latin), Let us be grateful to God",
+    "capital" : "Frankfort",
   },
   {
     "id" : "tennessee",
@@ -158,6 +173,7 @@
     "longitude" : -86.2820081,
     "nickname" : "The Volunteer State",
     "motto" : "Agriculture and Commerce",
+    "capital" : "Nashville",
   },
   {
     "id" : "ohio",
@@ -168,6 +184,7 @@
     "longitude" : -82.6881395,
     "nickname" : "The Buckeye State; Birthplace of Aviation; The Heart of It All",
     "motto" : "With God, all things are possible",
+    "capital" : "Columbus",
   },
   {
     "id" : "louisiana",
@@ -178,6 +195,7 @@
     "longitude" : -92.007126,
     "nickname" : "Bayou State; Creole State; Pelican State; Sportsman's Paradise; The Boot",
     "motto" : "Union, Justice, Confidence",
+    "capital" : "Baton Rouge",
   },
   {
     "id" : "indiana",
@@ -188,6 +206,7 @@
     "longitude" : -86.1746933,
     "nickname" : "The Hoosier State",
     "motto" : "The Crossroads of America",
+    "capital" : "Indianapolis",
   },
   {
     "id" : "mississippi",
@@ -198,6 +217,7 @@
     "longitude" : -89.7348497,
     "nickname" : "The Magnolia State; The Hospitality State",
     "motto" : "Virtute et armis(Latin), By valor and arms",
+    "capital" : "Jackson",
   },
   {
     "id" : "illinois",
@@ -208,6 +228,7 @@
     "longitude" : -89.4337288,
     "nickname" : "Land of Lincoln, Prairie State",
     "motto" : "State Sovereignty, National Union",
+    "capital" : "Springfield",
   },
   {
     "id" : "alabama",
@@ -218,6 +239,7 @@
     "longitude" : -86.8295337,
     "nickname" : "The Yellowhammer State; The Heart of Dixie; The Cotton State",
     "motto" : "Audemus jura nostra defendere(Latin), We dare defend our rights",
+    "capital" : "Montgomery",
   },
   {
     "id" : "maine",
@@ -227,7 +249,8 @@
     "latitude" : 45.709097,
     "longitude" : -68.8590201,
     "nickname" : "The Pine Tree State; Vacationland",
-    "motto" : "Dirigo(Latin), I lead; I guide; I direct",
+    "motto" : "Dirigo(Latin), I lead, I guide, I direct",
+    "capital" : "Augusta",
   },
   {
     "id" : "missouri",
@@ -238,6 +261,7 @@
     "longitude" : -92.5617875,
     "nickname" : "Show Me State; Cave State and Mother of the West",
     "motto" : "Salus populi suprema lex esto(Latin), Let the good of the people be the supreme law",
+    "capital" : "Jefferson City",
   },
   {
     "id" : "arkansas",
@@ -248,6 +272,7 @@
     "longitude" : -92.4479108,
     "nickname" : "The Natural State (current); The Bear State (former)",
     "motto" : "Regnat populus(Latin), The People Rule",
+    "capital" : "Little Rock",
   },
   {
     "id" : "michigan",
@@ -258,6 +283,7 @@
     "longitude" : -84.6824346,
     "nickname" : "The Great Lake(s) State; The Wolverine State; The Mitten State; Water (Winter) Wonderland",
     "motto" : "Si quaeris peninsulam amoenam circumspice(Latin), If you seek a pleasant peninsula, look about you",
+    "capital" : "Lansing",
   },
   {
     "id" : "florida",
@@ -268,6 +294,7 @@
     "longitude" : -81.4639835,
     "nickname" : "Sunshine State",
     "motto" : "In God We Trust",
+    "capital" : "Tallahassee",
   },
   {
     "id" : "texas",
@@ -278,6 +305,7 @@
     "longitude" : -99.5120986,
     "nickname" : "The Lone Star State",
     "motto" : "Friendship",
+    "capital" : "Austin",
   },
   {
     "id" : "iowa",
@@ -288,6 +316,7 @@
     "longitude" : -93.3122705,
     "nickname" : "Hawkeye State",
     "motto" : "Our liberties we prize and our rights we will maintain",
+    "capital" : "Des Moines",
   },
   {
     "id" : "wisconsin",
@@ -298,6 +327,7 @@
     "longitude" : -89.6884637,
     "nickname" : "Badger State; America's Dairyland",
     "motto" : "Forward",
+    "capital" : "Madison",
   },
   {
     "id" : "california",
@@ -308,6 +338,7 @@
     "longitude" : -118.755997,
     "nickname" : "Golden State",
     "motto" : "Eureka",
+    "capital" : "Sacramento",
   },
   {
     "id" : "minnesota",
@@ -318,6 +349,7 @@
     "longitude" : -94.6113288,
     "nickname" : "Land of 10,000 Lakes; North Star State; Gopher State",
     "motto" : "L'Étoile du Nord(French), The Star of the North",
+    "capital" : "Saint Paul",
   },
   {
     "id" : "oregon",
@@ -328,6 +360,7 @@
     "longitude" : -120.737257,
     "nickname" : "The Beaver State",
     "motto" : "Alis volat propriis(Latin), She flies with her own wings",
+    "capital" : "Salem",
   },
   {
     "id" : "kansas",
@@ -338,6 +371,7 @@
     "longitude" : -98.5821872,
     "nickname" : "The Sunflower State (official); The Wheat State; The Jayhawker State",
     "motto" : "Ad astra per aspera(Latin), for To the stars through difficulties",
+    "capital" : "Topeka",
   },
   {
     "id" : "westvirginia",
@@ -348,6 +382,7 @@
     "longitude" : -81.61408996582031,
     "nickname" : "Mountain State",
     "motto" : "Montani semper liberi(Latin), Mountaineers Are Always Free",
+    "capital" : "Charleston",
   },
   {
     "id" : "nevada",
@@ -358,6 +393,7 @@
     "longitude" : -116.8537227,
     "nickname" : "The Silver State (official); Sagebrush State; Battle Born State",
     "motto" : "All for Our Country",
+    "capital" : "Carson City",
   },
   {
     "id" : "Nebraska",
@@ -368,6 +404,7 @@
     "longitude" : -99.5873816,
     "nickname" : "Cornhusker State",
     "motto" : "Equality before the law",
+    "capital" : "Lincoln",
   },
   {
     "id" : "Colorado",
@@ -378,6 +415,7 @@
     "longitude" : -105.607716,
     "nickname" : "The Centennial State",
     "motto" : "Nil sine numine(Latin), Nothing without providence",
+    "capital" : "Denver",
   },
   {
     "id" : "northdakota",
@@ -388,6 +426,7 @@
     "longitude" : -100.540737,
     "nickname" : "Peace Garden State; Roughrider State; Flickertail State; Heaven on Earth",
     "motto" : "Liberty and Union, Now and Forever, One and Inseparable",
+    "capital" : "Bismarck",
   },
   {
     "id" : "southdakota",
@@ -398,6 +437,7 @@
     "longitude" : -100.348761,
     "nickname" : "The Mount Rushmore State (official)",
     "motto" : "Under God the People Rule",
+    "capital" : "Pierre",
   },
   {
     "id" : "montana",
@@ -408,16 +448,18 @@
     "longitude" : -109.638757,
     "nickname" : "Big Sky Country, The Treasure State",
     "motto" : "Oro y Plata(Spanish), Gold and Silver",
+    "capital" : "Helena",
   },
   {
     "id" : "washington",
     "name" : "Washington",
     "date" : "November 11, 1889",
     "fact" : "Pub trivia in Seattle might host a picture round of salmon; Washingtonians are expected to know their spawning chinook from non-spawning coho. ",
-    "latitude" : 38.8950368,
-    "longitude" : -77.0365427,
+    "latitude" : 47.03556442260742,
+    "longitude" : -122.90081024169922,
     "nickname" : "The Evergreen State (unofficial)",
     "motto" : "Al-ki or Alki; `by and by` in Chinook Jargon",
+    "capital" : "Olympia",
   },
   {
     "id" : "idaho",
@@ -428,6 +470,7 @@
     "longitude" : -116.20085144042969,
     "nickname" : "Gem State",
     "motto" : "Esto perpetua(Latin), Let it be perpetual",
+    "capital" : "Boise",
   },
   {
     "id" : "wyoming",
@@ -438,6 +481,7 @@
     "longitude" : -107.568534,
     "nickname" : "Equality State (official); Cowboy State; Big Wyoming",
     "motto" : "Equal Rights",
+    "capital" : "Cheyenne",
   },
   {
     "id" : "utah",
@@ -448,6 +492,7 @@
     "longitude" : -111.714358,
     "nickname" : "Beehive State (official); The Mormon State; Deseret",
     "motto" : "Industry",
+    "capital" : "Salt Lake City",
   },
   {
     "id" : "oklahoma",
@@ -458,6 +503,7 @@
     "longitude" : -97.2684063,
     "nickname" : "Native America; Land of the Red Man; The Sooner State",
     "motto" : "Labor omnia vincit(Latin), Work conquers all",
+    "capital" : "Oklahoma City",
   },
   {
     "id" : "newmexico",
@@ -468,6 +514,7 @@
     "longitude" : -105.993007,
     "nickname" : "Land of Enchantment",
     "motto" : "Crescit eundo(Spanish), It grows as it goes",
+    "capital" : "Santa Fe",
   },
   {
     "id" : "arizona",
@@ -478,6 +525,7 @@
     "longitude" : -111.763275,
     "nickname" : "The Grand Canyon State; The Copper State; The Valentine State",
     "motto" : "Ditat Deus(Latin), God enriches",
+    "capital" : "Phoenix",
   },
   {
     "id" : "alaska",
@@ -488,6 +536,7 @@
     "longitude" : -149.680909,
     "nickname" : "The Last Frontier",
     "motto" : "North to the Future",
+    "capital" : "Juneau",
   },
   {
     "id" : "hawaii",
@@ -498,5 +547,6 @@
     "longitude" : -155.4268897,
     "nickname" : "The Aloha State (official); Paradise of the Pacific; The Islands of Aloha; The 808 State",
     "motto" : "Ua Mau ke Ea o ka ʻĀina i ka Pono(Hawaian),The Life of the Land Is Perpetuated in Righteousness",
+    "capital" : "Honolulu",
   },
 ]

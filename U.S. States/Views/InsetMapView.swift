@@ -10,11 +10,27 @@ import MapKit
 
 struct InsetMapView: View {
     
-    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.6000, longitude: -95.6650), span: MKCoordinateSpan(latitudeDelta: 30.0, longitudeDelta: 30.0))
+    @State private var region : MKCoordinateRegion = {
+        var mapCoordinate = CLLocationCoordinate2D(latitude: 37.6000, longitude: -95.6650)
+        
+        var mapZoomLevel = MKCoordinateSpan(latitudeDelta: 70.0, longitudeDelta: 70.0)
+        
+        var mapRegion = MKCoordinateRegion(center: mapCoordinate, span: mapZoomLevel)
+        
+        return mapRegion
+    }()
+    
+    let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
     
     //MARK: - BODY
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region, annotationItems: stateOfAmerica, annotationContent: {
+            item in
+            MapAnnotation(coordinate: item.location) {
+                MapAnnotationView(stateOfAmerica: item)
+            }
+            
+        })
             .overlay(NavigationLink(
                         destination: MapView(),
                         label: {

@@ -18,6 +18,7 @@ struct USStatesDetailView: View {
                 Image(stateOfAmerica.name)
                     .resizable()
                     .scaledToFit()
+                    .clipShape(RoundedRectangle(cornerRadius: 25))
                 
                 // TITLE
                 Text(stateOfAmerica.name.uppercased())
@@ -34,7 +35,8 @@ struct USStatesDetailView: View {
                 
                 //HEADLINE
                 VStack(alignment: .center, spacing: 10, content: {
-                    HeadlineView(headlineTitle: "Date of Ammission:", headlineText: "\(stateOfAmerica.date)")
+                    HeadlineView(headlineTitle: "Capital:", headlineText: "\(stateOfAmerica.capital)")
+                    HeadlineView(headlineTitle: "Admitted to the Union:", headlineText: "\(stateOfAmerica.date)")
                     HeadlineView(headlineTitle: "Nickname(s):", headlineText: "\(stateOfAmerica.nickname)")
                     HeadlineView(headlineTitle: "Motto(s):", headlineText: "\(stateOfAmerica.motto)")
                 })
@@ -46,14 +48,16 @@ struct USStatesDetailView: View {
                     
                 
                 //Seal
-                HeaderView(headingImage: "circle", headingText: "Seal")
+                HeaderView(headingImage: "binoculars", headingText: "Seal")
                 GroupBox {
                     TabView {
                         Image("Seal_of_\(stateOfAmerica.name)")
                     }//: TabView
                     .tabViewStyle(PageTabViewStyle())
                     .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
+                    
                 }//: GroupBox
+                .padding()
                 
                 //DID YOU KNOW
                 HeaderView(headingImage: "questionmark.circle", headingText: "Did you Know?")
@@ -64,10 +68,12 @@ struct USStatesDetailView: View {
                     .tabViewStyle(PageTabViewStyle())
                     .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
                 }//: GroupBox
+                .padding()
                 
                 //MAP
                 HeaderView(headingImage: "map", headingText: "US Map")
                 InsetMapView()
+                    .padding()
             }//: VStack
             .navigationBarTitle("Learn About \(stateOfAmerica.name)", displayMode: .inline)
         })

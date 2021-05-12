@@ -17,6 +17,7 @@ struct StateUS: Codable, Identifiable {
     let longitude : Double
     let nickname : String
     let motto : String
+    let capital : String
     
     //Computed Property
     var location : CLLocationCoordinate2D {
