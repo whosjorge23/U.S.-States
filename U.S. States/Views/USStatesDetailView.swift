@@ -74,6 +74,14 @@ struct USStatesDetailView: View {
                 HeaderView(headingImage: "map", headingText: "US Map")
                 InsetMapView()
                     .padding()
+                
+                //LINK
+                Group {
+                    HeaderView(headingImage: "books.vertical", headingText: "Learn More")
+                    ExternalWeblinkView(stateOfAmerica: stateOfAmerica)
+                }
+                .padding(.horizontal)
+                
             }//: VStack
             .navigationBarTitle("Learn About \(stateOfAmerica.name)", displayMode: .inline)
         })

@@ -9,6 +9,7 @@
     "nickname" : "The First State; The Small Wonder; Blue Hen State; The Diamond State",
     "motto" : "Liberty and Independence",
     "capital" : "Dover",
+    "link" : "https://en.wikipedia.org/wiki/Delaware",
   },
   {
     "id" : "pennsylvania",
@@ -20,6 +21,7 @@
     "nickname" : "Keystone State; Quaker State",
     "motto" : "Virtue, Liberty and Independence",
     "capital" : "Harrisburg",
+    "link" : "https://en.wikipedia.org/wiki/Pennsylvania",
   },
   {
     "id" : "newjersey",
@@ -31,6 +33,7 @@
     "nickname" : "The Garden State",
     "motto" : "Liberty and prosperity",
     "capital" : "Trenton",
+    "link" : "https://en.wikipedia.org/wiki/New_Jersey",
   },
   {
     "id" : "georgia",
@@ -42,6 +45,7 @@
     "nickname" : "Peach State; Empire State of the South",
     "motto" : "Wisdom, Justice, Moderation",
     "capital" : "Atlanta",
+    "link" : "https://en.wikipedia.org/wiki/Georgia",
   },
   {
     "id" : "connecticut",
@@ -53,6 +57,7 @@
     "nickname" : "The Constitution State (official); The Nutmeg State; The Provisions State; The Land of Steady Habits",
     "motto" : "Qui transtulit sustinet (Latin), He who transplanted still sustains",
     "capital" : "Hartford",
+    "link" : "https://en.wikipedia.org/wiki/Connecticut",
   },
   {
     "id" : "massachusetts",
@@ -64,6 +69,7 @@
     "nickname" : "The Bay State (official); The Pilgrim State; The Puritan State; The Old Colony State; The Baked Bean State",
     "motto" : "Ense petit placidam sub libertate quietem (Latin), By the sword we seek peace, but peace only under liberty",
     "capital" : "Boston",
+    "link" : "https://en.wikipedia.org/wiki/Massachusetts",
   },
   {
     "id" : "maryland",
@@ -75,6 +81,7 @@
     "nickname" : "Old Line State; Free State; Little America; America in Miniature",
     "motto" : "Strong Deeds, Gentle Words",
     "capital" : "Annapolis",
+    "link" : "https://en.wikipedia.org/wiki/Maryland",
   },
   {
     "id" : "southcarolina",
@@ -86,6 +93,7 @@
     "nickname" : "The Palmetto State",
     "motto" : "Dum spiro spero(Latin), While I breathe, I hope; Animis opibusque parati(Latin), Prepared in mind and resources",
     "capital" : "Columbia",
+    "link" : "https://en.wikipedia.org/wiki/South_Carolina",
   },
   {
     "id" : "newhampshire",
@@ -97,6 +105,7 @@
     "nickname" : "The Granite State; The White Mountain State",
     "motto" : "Live Free or Die",
     "capital" : "Concord",
+    "link" : "https://en.wikipedia.org/wiki/New_Hampshire",
   },
   {
     "id" : "virginia",
@@ -108,6 +117,7 @@
     "nickname" : "Old Dominion, Mother of Presidents",
     "motto" : "Sic semper tyrannis(Latin), Thus Always to Tyrants",
     "capital" : "Richmond",
+    "link" : "https://en.wikipedia.org/wiki/Virginia",
   },
   {
     "id" : "newyork",
@@ -119,6 +129,7 @@
     "nickname" : "The Empire State",
     "motto" : "Excelsior(Latin), Ever upward",
     "capital" : "Albany",
+    "link" : "https://en.wikipedia.org/wiki/New_York",
   },
   {
     "id" : "northcarolina",
@@ -130,6 +141,7 @@
     "nickname" : "Old North State; Tar Heel State",
     "motto" : "Esse quam videri(Latin), To be, rather than to seem",
     "capital" : "Raleigh",
+    "link" : "https://en.wikipedia.org/wiki/North_Carolina",
   },
   {
     "id" : "rhodeisland",
@@ -141,6 +153,7 @@
     "nickname" : "The Ocean State; Little Rhody",
     "motto" : "Hope",
     "capital" : "Providence",
+    "link" : "https://en.wikipedia.org/wiki/Rhode_Island",
   },
   {
     "id" : "vermont",
@@ -152,6 +165,7 @@
     "nickname" : "The Green Mountain State",
     "motto" : "Freedom and Unity; Stella quarta decima fulgeat(Latin), May the 14th star shine bright",
     "capital" : "Montpelier",
+    "link" : "https://en.wikipedia.org/wiki/Vermont",
   },
   {
     "id" : "kentucky",
@@ -163,6 +177,7 @@
     "nickname" : "Bluegrass State",
     "motto" : "United we stand, divided we fall; Deo gratiam habeamus(Latin), Let us be grateful to God",
     "capital" : "Frankfort",
+    "link" : "https://en.wikipedia.org/wiki/Kentucky",
   },
   {
     "id" : "tennessee",
@@ -174,6 +189,7 @@
     "nickname" : "The Volunteer State",
     "motto" : "Agriculture and Commerce",
     "capital" : "Nashville",
+    "link" : "https://en.wikipedia.org/wiki/Tennessee",
   },
   {
     "id" : "ohio",
@@ -185,6 +201,7 @@
     "nickname" : "The Buckeye State; Birthplace of Aviation; The Heart of It All",
     "motto" : "With God, all things are possible",
     "capital" : "Columbus",
+    "link" : "https://en.wikipedia.org/wiki/Ohio",
   },
   {
     "id" : "louisiana",
@@ -196,6 +213,7 @@
     "nickname" : "Bayou State; Creole State; Pelican State; Sportsman's Paradise; The Boot",
     "motto" : "Union, Justice, Confidence",
     "capital" : "Baton Rouge",
+    "link" : "https://en.wikipedia.org/wiki/Louisiana",
   },
   {
     "id" : "indiana",
@@ -207,6 +225,7 @@
     "nickname" : "The Hoosier State",
     "motto" : "The Crossroads of America",
     "capital" : "Indianapolis",
+    "link" : "https://en.wikipedia.org/wiki/Indiana",
   },
   {
     "id" : "mississippi",
@@ -218,6 +237,7 @@
     "nickname" : "The Magnolia State; The Hospitality State",
     "motto" : "Virtute et armis(Latin), By valor and arms",
     "capital" : "Jackson",
+    "link" : "https://en.wikipedia.org/wiki/Mississippi",
   },
   {
     "id" : "illinois",
@@ -229,6 +249,7 @@
     "nickname" : "Land of Lincoln, Prairie State",
     "motto" : "State Sovereignty, National Union",
     "capital" : "Springfield",
+    "link" : "https://en.wikipedia.org/wiki/Illinois",
   },
   {
     "id" : "alabama",
@@ -240,6 +261,7 @@
     "nickname" : "The Yellowhammer State; The Heart of Dixie; The Cotton State",
     "motto" : "Audemus jura nostra defendere(Latin), We dare defend our rights",
     "capital" : "Montgomery",
+    "link" : "https://en.wikipedia.org/wiki/Alabama",
   },
   {
     "id" : "maine",
@@ -251,6 +273,7 @@
     "nickname" : "The Pine Tree State; Vacationland",
     "motto" : "Dirigo(Latin), I lead, I guide, I direct",
     "capital" : "Augusta",
+    "link" : "https://en.wikipedia.org/wiki/Maine",
   },
   {
     "id" : "missouri",
@@ -262,6 +285,7 @@
     "nickname" : "Show Me State; Cave State and Mother of the West",
     "motto" : "Salus populi suprema lex esto(Latin), Let the good of the people be the supreme law",
     "capital" : "Jefferson City",
+    "link" : "https://en.wikipedia.org/wiki/Missouri",
   },
   {
     "id" : "arkansas",
@@ -273,6 +297,7 @@
     "nickname" : "The Natural State (current); The Bear State (former)",
     "motto" : "Regnat populus(Latin), The People Rule",
     "capital" : "Little Rock",
+    "link" : "https://en.wikipedia.org/wiki/Arkansas",
   },
   {
     "id" : "michigan",
@@ -284,6 +309,7 @@
     "nickname" : "The Great Lake(s) State; The Wolverine State; The Mitten State; Water (Winter) Wonderland",
     "motto" : "Si quaeris peninsulam amoenam circumspice(Latin), If you seek a pleasant peninsula, look about you",
     "capital" : "Lansing",
+    "link" : "https://en.wikipedia.org/wiki/Michigan",
   },
   {
     "id" : "florida",
@@ -295,6 +321,7 @@
     "nickname" : "Sunshine State",
     "motto" : "In God We Trust",
     "capital" : "Tallahassee",
+    "link" : "https://en.wikipedia.org/wiki/Florida",
   },
   {
     "id" : "texas",
@@ -306,6 +333,7 @@
     "nickname" : "The Lone Star State",
     "motto" : "Friendship",
     "capital" : "Austin",
+    "link" : "https://en.wikipedia.org/wiki/Texas",
   },
   {
     "id" : "iowa",
@@ -317,6 +345,7 @@
     "nickname" : "Hawkeye State",
     "motto" : "Our liberties we prize and our rights we will maintain",
     "capital" : "Des Moines",
+    "link" : "https://en.wikipedia.org/wiki/Iowa",
   },
   {
     "id" : "wisconsin",
@@ -328,6 +357,7 @@
     "nickname" : "Badger State; America's Dairyland",
     "motto" : "Forward",
     "capital" : "Madison",
+    "link" : "https://en.wikipedia.org/wiki/Wisconsin",
   },
   {
     "id" : "california",
@@ -339,6 +369,7 @@
     "nickname" : "Golden State",
     "motto" : "Eureka",
     "capital" : "Sacramento",
+    "link" : "https://en.wikipedia.org/wiki/California",
   },
   {
     "id" : "minnesota",
@@ -350,6 +381,7 @@
     "nickname" : "Land of 10,000 Lakes; North Star State; Gopher State",
     "motto" : "L'Étoile du Nord(French), The Star of the North",
     "capital" : "Saint Paul",
+    "link" : "https://en.wikipedia.org/wiki/Minnesota",
   },
   {
     "id" : "oregon",
@@ -361,6 +393,7 @@
     "nickname" : "The Beaver State",
     "motto" : "Alis volat propriis(Latin), She flies with her own wings",
     "capital" : "Salem",
+    "link" : "https://en.wikipedia.org/wiki/Oregon",
   },
   {
     "id" : "kansas",
@@ -372,6 +405,7 @@
     "nickname" : "The Sunflower State (official); The Wheat State; The Jayhawker State",
     "motto" : "Ad astra per aspera(Latin), for To the stars through difficulties",
     "capital" : "Topeka",
+    "link" : "https://en.wikipedia.org/wiki/Kansas",
   },
   {
     "id" : "westvirginia",
@@ -383,6 +417,7 @@
     "nickname" : "Mountain State",
     "motto" : "Montani semper liberi(Latin), Mountaineers Are Always Free",
     "capital" : "Charleston",
+    "link" : "https://en.wikipedia.org/wiki/West_Virginia",
   },
   {
     "id" : "nevada",
@@ -394,6 +429,7 @@
     "nickname" : "The Silver State (official); Sagebrush State; Battle Born State",
     "motto" : "All for Our Country",
     "capital" : "Carson City",
+    "link" : "https://en.wikipedia.org/wiki/Nevada",
   },
   {
     "id" : "Nebraska",
@@ -405,6 +441,7 @@
     "nickname" : "Cornhusker State",
     "motto" : "Equality before the law",
     "capital" : "Lincoln",
+    "link" : "https://en.wikipedia.org/wiki/Nebraska",
   },
   {
     "id" : "Colorado",
@@ -416,6 +453,7 @@
     "nickname" : "The Centennial State",
     "motto" : "Nil sine numine(Latin), Nothing without providence",
     "capital" : "Denver",
+    "link" : "https://en.wikipedia.org/wiki/Colorado",
   },
   {
     "id" : "northdakota",
@@ -427,6 +465,7 @@
     "nickname" : "Peace Garden State; Roughrider State; Flickertail State; Heaven on Earth",
     "motto" : "Liberty and Union, Now and Forever, One and Inseparable",
     "capital" : "Bismarck",
+    "link" : "https://en.wikipedia.org/wiki/North_Dakota",
   },
   {
     "id" : "southdakota",
@@ -438,6 +477,7 @@
     "nickname" : "The Mount Rushmore State (official)",
     "motto" : "Under God the People Rule",
     "capital" : "Pierre",
+    "link" : "https://en.wikipedia.org/wiki/South_Dakota",
   },
   {
     "id" : "montana",
@@ -449,6 +489,7 @@
     "nickname" : "Big Sky Country, The Treasure State",
     "motto" : "Oro y Plata(Spanish), Gold and Silver",
     "capital" : "Helena",
+    "link" : "https://en.wikipedia.org/wiki/Montana",
   },
   {
     "id" : "washington",
@@ -460,6 +501,7 @@
     "nickname" : "The Evergreen State (unofficial)",
     "motto" : "Al-ki or Alki; `by and by` in Chinook Jargon",
     "capital" : "Olympia",
+    "link" : "https://en.wikipedia.org/wiki/Washington",
   },
   {
     "id" : "idaho",
@@ -471,6 +513,7 @@
     "nickname" : "Gem State",
     "motto" : "Esto perpetua(Latin), Let it be perpetual",
     "capital" : "Boise",
+    "link" : "https://en.wikipedia.org/wiki/Idaho",
   },
   {
     "id" : "wyoming",
@@ -482,6 +525,7 @@
     "nickname" : "Equality State (official); Cowboy State; Big Wyoming",
     "motto" : "Equal Rights",
     "capital" : "Cheyenne",
+    "link" : "https://en.wikipedia.org/wiki/Wyoming",
   },
   {
     "id" : "utah",
@@ -493,6 +537,7 @@
     "nickname" : "Beehive State (official); The Mormon State; Deseret",
     "motto" : "Industry",
     "capital" : "Salt Lake City",
+    "link" : "https://en.wikipedia.org/wiki/Utah",
   },
   {
     "id" : "oklahoma",
@@ -504,6 +549,7 @@
     "nickname" : "Native America; Land of the Red Man; The Sooner State",
     "motto" : "Labor omnia vincit(Latin), Work conquers all",
     "capital" : "Oklahoma City",
+    "link" : "https://en.wikipedia.org/wiki/Oklahoma",
   },
   {
     "id" : "newmexico",
@@ -515,6 +561,7 @@
     "nickname" : "Land of Enchantment",
     "motto" : "Crescit eundo(Spanish), It grows as it goes",
     "capital" : "Santa Fe",
+    "link" : "https://en.wikipedia.org/wiki/New_Mexico",
   },
   {
     "id" : "arizona",
@@ -526,6 +573,7 @@
     "nickname" : "The Grand Canyon State; The Copper State; The Valentine State",
     "motto" : "Ditat Deus(Latin), God enriches",
     "capital" : "Phoenix",
+    "link" : "https://en.wikipedia.org/wiki/Arizona",
   },
   {
     "id" : "alaska",
@@ -537,6 +585,7 @@
     "nickname" : "The Last Frontier",
     "motto" : "North to the Future",
     "capital" : "Juneau",
+    "link" : "https://en.wikipedia.org/wiki/Alaska",
   },
   {
     "id" : "hawaii",
@@ -548,5 +597,6 @@
     "nickname" : "The Aloha State (official); Paradise of the Pacific; The Islands of Aloha; The 808 State",
     "motto" : "Ua Mau ke Ea o ka ʻĀina i ka Pono(Hawaian),The Life of the Land Is Perpetuated in Righteousness",
     "capital" : "Honolulu",
+    "link" : "https://en.wikipedia.org/wiki/Hawaii",
   },
 ]
