@@ -72,7 +72,7 @@ struct USStatesDetailView: View {
                 
                 //MAP
                 HeaderView(headingImage: "map", headingText: "US Map")
-                InsetMapView()
+                InsetMapView(stateUS: stateOfAmerica)
                     .padding()
                 
                 //LINK

@@ -20,14 +20,16 @@ struct InsetMapView: View {
         return mapRegion
     }()
     
+    let stateUS : StateUS
+    
     let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
     
     //MARK: - BODY
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: stateOfAmerica, annotationContent: {
             item in
-            MapAnnotation(coordinate: item.location) {
-                MapAnnotationView(stateOfAmerica: item)
+            MapAnnotation(coordinate: stateUS.location) {
+                MapAnnotationView(stateOfAmerica: stateUS)
             }
             
         })
@@ -57,7 +59,9 @@ struct InsetMapView: View {
 }
 
 struct InsetMapView_Previews: PreviewProvider {
+    static let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
+    
     static var previews: some View {
-        InsetMapView()
+        USStateListView(stateOfAmerica: stateOfAmerica[30])
     }
 }

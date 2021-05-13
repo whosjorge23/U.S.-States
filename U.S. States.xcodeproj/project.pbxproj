@@ -55,6 +55,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED8BD029264D31080054EEDE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAA9692649692D001FEF33 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED8BD02A264D311C0054EEDE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAA96526496513001FEF33 /* usstates.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ED8BD02B264D31330054EEDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDCAA97026496B7E001FEF33 /* USStateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EDCAA94926494A4A001FEF33 = {
 			isa = PBXGroup;
 			children = (
@@ -76,10 +100,11 @@
 			children = (
 				EDCAA95526494A4A001FEF33 /* U_S__StatesApp.swift */,
 				EDCAA95726494A4A001FEF33 /* ContentView.swift */,
-				EDCAA9692649692D001FEF33 /* CodableBundleExtension.swift */,
-				EDCAA97026496B7E001FEF33 /* USStateModel.swift */,
+				EDCAA97826497224001FEF33 /* USStatesDetailView.swift */,
+				ED8BD029264D31080054EEDE /* Extension */,
+				ED8BD02B264D31330054EEDE /* Model */,
 				EDF7CB3426499B13008CCD02 /* Views */,
-				EDCAA96526496513001FEF33 /* usstates.json */,
+				ED8BD02A264D311C0054EEDE /* Data */,
 				EDCAA95926494A50001FEF33 /* Assets.xcassets */,
 				EDCAA95E26494A50001FEF33 /* Info.plist */,
 				EDCAA95B26494A50001FEF33 /* Preview Content */,
@@ -103,7 +128,6 @@
 				ED17FF09264C1C4E00A5538E /* ExternalWeblinkView.swift */,
 				ED0633AF264AC2320003EF67 /* MapView.swift */,
 				ED0633B2264AC2AA0003EF67 /* MapAnnotationView.swift */,
-				EDCAA97826497224001FEF33 /* USStatesDetailView.swift */,
 				ED0633B5264AE1CD0003EF67 /* HeadlineView.swift */,
 				EDF7CB3626499FEF008CCD02 /* HeaderView.swift */,
 			);
