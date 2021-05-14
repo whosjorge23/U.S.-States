@@ -41,7 +41,7 @@ struct USStatesDetailView: View {
                 
                 //FLAG MEANING
                 Group {
-                    HeaderView(headingImage: "flag", headingText: "Flag Meaning")
+                    HeaderView(headingImage: "flag", headingText: "Flag History")
                     GroupBox{
                     Text(stateOfAmerica.historyflag)
                         .multilineTextAlignment(.leading)

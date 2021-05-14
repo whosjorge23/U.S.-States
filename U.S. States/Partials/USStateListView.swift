@@ -16,7 +16,8 @@ struct USStateListView: View {
             Image(stateOfAmerica.name)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 80, height:60)
+//                .frame(width: 80, height:60)
+                .frame(width: 90, height:60)
                 .clipShape(RoundedRectangle(cornerRadius: 12))
             VStack(alignment: .leading, spacing: 8) {
                 Text("\(stateOfAmerica.name) (\(stateOfAmerica.abbreviation))")
