@@ -33,6 +33,7 @@ struct InfoView: View {
                 Section(header: Text("Application")) {
                     InfoRowView(name: "Developer", content: "Giorgio Giannotta")
                     InfoRowView(name: "Platforms", content: "iOS & Web")
+                    InfoRowView(name: "Languages", content: "Swift, Python, Javascript")
                     InfoRowView(name: "Website", linkLabel: "Softbay X", linkDestination: "softbayx.com")
                     InfoRowView(name: "Portfolio", linkLabel: "westcostyle", linkDestination: "westcostyle.com")
                     InfoRowView(name: "Twitter", linkLabel: "@whosjorge23", linkDestination: "twitter.com/whosjorge23")

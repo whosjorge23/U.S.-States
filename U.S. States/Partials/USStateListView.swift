@@ -19,15 +19,23 @@ struct USStateListView: View {
                 .frame(width: 80, height:60)
                 .clipShape(RoundedRectangle(cornerRadius: 12))
             VStack(alignment: .leading, spacing: 8) {
-                Text(stateOfAmerica.name)
+                Text("\(stateOfAmerica.name) (\(stateOfAmerica.abbreviation))")
                     .font(.title2)
                     .fontWeight(.heavy)
                     .foregroundColor(.yellow)
-                Text(stateOfAmerica.date)
-                    .font(.footnote)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(2)
-                    .padding(.trailing, 8)
+                HStack(alignment: .center, spacing: nil, content: {
+                    Text(stateOfAmerica.capital)
+                        .font(.footnote)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(2)
+//                    Spacer()
+//                    Text(stateOfAmerica.date)
+//                        .font(.footnote)
+//                        .multilineTextAlignment(.leading)
+//                        .lineLimit(2)
+//                        .padding(.trailing, 15)
+                })
+                
             }//: VStack
         }//: HStack
     }

@@ -14,6 +14,7 @@ struct USStatesDetailView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false, content: {
             VStack(alignment: .center, spacing: 20) {
+                Group {
                 // HERO IMAGE
                 Image(stateOfAmerica.name)
                     .resizable()
@@ -32,20 +33,23 @@ struct USStatesDetailView: View {
                             .frame(height: 6)
                             .offset(y: 24)
                     )
-                
-                //HEADLINE
-                VStack(alignment: .center, spacing: 10, content: {
-                    HeadlineView(headlineTitle: "Capital:", headlineText: "\(stateOfAmerica.capital)")
-                    HeadlineView(headlineTitle: "Admitted to the Union:", headlineText: "\(stateOfAmerica.date)")
-                    HeadlineView(headlineTitle: "Nickname(s):", headlineText: "\(stateOfAmerica.nickname)")
-                    HeadlineView(headlineTitle: "Motto(s):", headlineText: "\(stateOfAmerica.motto)")
-                })
-                .font(.headline)
-                .multilineTextAlignment(.leading)
+                }
                 .padding(.horizontal)
                 
+                //HEADLINE
+                HeadlineBlockView(stateOfAmerica: stateOfAmerica)
                 
-                    
+                //FLAG MEANING
+                Group {
+                    HeaderView(headingImage: "flag", headingText: "Flag Meaning")
+                    GroupBox{
+                    Text(stateOfAmerica.historyflag)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                        .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                .padding(.horizontal)
                 
                 //Seal
                 HeaderView(headingImage: "binoculars", headingText: "Seal")

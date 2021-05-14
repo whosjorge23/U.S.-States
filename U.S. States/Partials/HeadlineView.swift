@@ -16,7 +16,7 @@ struct HeadlineView: View {
             Text(headlineTitle)
                 .foregroundColor(.yellow)
             Spacer()
-            Text(headlineText)
+            Text(headlineText).multilineTextAlignment(.trailing)
         })
     }
 }
