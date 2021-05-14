@@ -31,7 +31,6 @@ struct InsetMapView: View {
             MapAnnotation(coordinate: stateUS.location) {
                 MapAnnotationView(stateOfAmerica: stateUS)
             }
-            
         })
             .overlay(NavigationLink(
                         destination: MapView(),

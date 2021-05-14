@@ -31,7 +31,7 @@ struct MapView: View {
         Map(coordinateRegion: $region, annotationItems: stateOfAmerica, annotationContent: {
             item in
             MapAnnotation(coordinate: item.location) {
-                MapAnnotationView(stateOfAmerica: item)
+                MapButtonView(stateOfAmerica: item)
             }
             
         })//: Map
