@@ -74,16 +74,36 @@ struct USStatesDetailView: View {
                 }//: GroupBox
                 .padding()
                 
-                //MAP
-                HeaderView(headingImage: "map", headingText: "US Map")
-                InsetMapView(stateUS: stateOfAmerica)
+                Group {
+                    
+                    //MAP
+                    HeaderView(headingImage: "map", headingText: "US Map")
+                    InsetMapView(stateUS: stateOfAmerica)
                     .padding()
                 
-                //LINK
-                Group {
+                    //BORDERS
+                    HeaderView(headingImage: "map", headingText: "Border States")
+                    if stateOfAmerica.name == "Alaska" || stateOfAmerica.name == "Hawaii" {
+                        Text("None")
+                            .font(.title2)
+                            .fontWeight(.heavy)
+                            .foregroundColor(.yellow)
+                    }else {
+                        ForEach(stateOfAmerica.border, id: \.self) { item in
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("\(item)")
+                                    .font(.title2)
+                                    .fontWeight(.heavy)
+                                    .foregroundColor(.yellow)
+                            }//: VStack
+                        }
+                    }
+                    Divider().frame(height: 2).background(Color.yellow).opacity(0.5)
+                    //LINK
                     HeaderView(headingImage: "books.vertical", headingText: "Learn More")
                     ExternalWeblinkView(stateOfAmerica: stateOfAmerica)
-                }
+                    
+                }//: Group
                 .padding(.horizontal)
                 
             }//: VStack

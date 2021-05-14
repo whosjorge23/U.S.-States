@@ -21,6 +21,7 @@ struct StateUS: Codable, Identifiable {
     let link : String
     let abbreviation : String
     let historyflag : String
+    let border : [String]
     
     //Computed Property
     var location : CLLocationCoordinate2D {

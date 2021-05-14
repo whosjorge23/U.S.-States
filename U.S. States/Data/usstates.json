@@ -12,6 +12,7 @@
       "link" : "https://en.wikipedia.org/wiki/Alabama",
       "abbreviation" : "AL",
       "historyflag" : "A crimson St. Andrew's cross on a white field, patterned after the Confederate Battle Flag, and adopted in 1895. The bars forming the cross must not be less than six inches broad and must extend diagonally across the flag from side to side",
+      "border" : ["Florida", "Georgia", "Mississippi", "Tennessee"],
     },
     {
       "id" : "alaska",
@@ -26,6 +27,7 @@
       "link" : "https://en.wikipedia.org/wiki/Alaska",
       "abbreviation" : "AK",
       "historyflag" : "The blue field represents the sky, the sea, and mountain lakes, as well as Alaska's wildflowers. Emblazoned on the flag are eight gold stars: seven in the constellation Ursa Major, or the Big Dipper. The eighth being the North Star, representing the northern most state. Alaska adopted the flag for official state use in 1959.",
+      "border" : [],
     },
     {
       "id" : "arizona",
@@ -40,6 +42,7 @@
       "link" : "https://en.wikipedia.org/wiki/Arizona",
       "abbreviation" : "AZ",
       "historyflag" : "The 13 rays of red and gold on the top half of the flag represent both the 13 original colonies of the Union, and the rays of the Western setting sun. Red and gold were also the colors carried by Coronado's Spanish expedition in search of the Seven Cities of Cibola in 1540. The bottom half of the flag has the same Liberty blue as the United States flag. Since Arizona was the largest producer of copper in the nation, a copper star was placed in the flag's center. Flag adopted 1917.",
+      "border" : ["California", "Colorado", "Nevada", "New Mexico", "Utah"],
     },
     {
       "id" : "arkansas",
@@ -54,6 +57,7 @@
       "link" : "https://en.wikipedia.org/wiki/Arkansas",
       "abbreviation" : "AR",
       "historyflag" : "A diamond on a red field represents the only place in North America where diamonds have been discovered and mined. The twenty-five white stars around the diamond mean that Arkansas was the twenty-fifth state to join the Union. The top of four stars in the center represents that Arkansas was a member of the Confederate States during the Civil War. The other three stars represent Spain, France and the United States, countries that had earlier ruled the land that includes Arkansas. Flag adopted 1913.",
+      "border" : ["Louisiana", "Mississippi", "Missouri", "Oklahoma", "Tennessee", "Texas"],
     },
     {
       "id" : "california",
@@ -68,6 +72,7 @@
       "link" : "https://en.wikipedia.org/wiki/California",
       "abbreviation" : "CA",
       "historyflag" : "Historic Bear flag raised at Sonomaon June 14, 1846, by a group of American settlers in revolt against Mexican rule. The flag was designed by William Todd on a piece of new unbleached cotton. The star imitated the lone star of Texas. A grizzly bear represented the many bears seen in the state. The word, 'California Republic' was placed beneath the star and bear. It was adopted by the 1911 State Legislature as the State Flag.",
+      "border" : ["Arizona", "Nevada", "Oregon"],
     },
     {
       "id" : "Colorado",
@@ -82,6 +87,7 @@
       "link" : "https://en.wikipedia.org/wiki/Colorado",
       "abbreviation" : "CO",
       "historyflag" : "The flag consists of three alternate stripes of equal width and at right angles to the staff, the two outer stripes to be blue of the same color as in the blue field of the national flag and the middle stripe to be white, the proportion of the flag being a width of two-thirds of its length. At a distance from the staff end of the flag of one fifth of the total length of the flag there is a circular red C, of the same color as the red in the national flag of the United States. The diameter of the letter is two-thirds of the width of the flag. The inner line of the opening of the letter C is three-fourths of the width of its body or bar, and the outer line of the opening is double the length of the inner line thereof. Completely filling the open space inside the letter C is a golden disk, attached to the flag is a cord of gold and silver, intertwined, with tassels, one of gold and one of silver. Flag adopted 1911.",
+      "border" : ["Arizona", "Kansas", "Nebraska", "New Mexico", "Oklahoma", "Utah", "Wyoming"],
     },
     {
       "id" : "connecticut",
@@ -96,6 +102,7 @@
       "link" : "https://en.wikipedia.org/wiki/Connecticut",
       "abbreviation" : "CT",
       "historyflag" : "On a field of azure blue is an ornamental white shield with three grapevines, each bearing three bunches of purple grapes. The states motto 'He who Transplanted Sustains Us' is displayed on a white ribbon. The vines stand for the first settlements of English people who began to move from Massachusetts in the 1630's. These settlements were thought of as grape vines that had been transplanted. Flag adopted 1897.",
+      "border" : ["Massachusetts", "New York", "Rhode Island"],
     },
     {
       "id" : "delaware",
@@ -110,6 +117,7 @@
       "link" : "https://en.wikipedia.org/wiki/Delaware",
       "abbreviation" : "DE",
       "historyflag" : "Adopted on July 24, 1913, the Delaware state flag has a background of colonial blue surrounding a diamond of buff color in which the coat of arms of the state is placed. Below the diamond are the words 'December 7, 1787,' indicating the day on which Delaware was the first state to ratify the United States constitution. Because of this action, Delaware became the first state in the Union, and is, therefore, accorded the first position in such national events as presidential inaugurations. According to members of the original commission established to design the flag, the shades of buff and colonial blue represent those of the uniform of General George Washington. Inside the diamond, the flag recognizes the importance of commerce {the ship} and agriculture {wheat, corn, the ox and the farmer} to the state. Tribute is also paid to the revolutionary war soldiers. The words in the ribbon banner read Liberty and Independence.",
+      "border" : ["Maryland", "New Jersey", "Pennsylvania"],
     },
     {
       "id" : "florida",
@@ -124,6 +132,8 @@
       "link" : "https://en.wikipedia.org/wiki/Florida",
       "abbreviation" : "FL",
       "historyflag" : "On a white field emblazoned with a red X and the state seal, Florida's flag represents the land of sunshine, flowers, palm trees, rivers and lakes. The seal features a brilliant sun, a cabbage palmetto tree, a steamboat sailing and a Native American Seminole woman scattering flowers. Flag adopted 1899.",
+      "border" : ["Alabama", "Georgia"],
+      
     },
     {
       "id" : "georgia",
@@ -138,6 +148,7 @@
       "link" : "https://en.wikipedia.org/wiki/Georgia",
       "abbreviation" : "GA",
       "historyflag" : "The Georgia flag has three red and white stripes and the state coat of arms on a blue field in the upper left corner.Thirteen stars surrounding the seal denotes Georgia's position as one of the original thirteen colonies. On the seal three pillars supporting an arch represent the three branches of government; legislative, judicial and executive. A man with sword drawn is defending the Constitution, whose principles are wisdom, justice and moderation. The date 1776 represents the signing of the Declaration of Independence. Flag adopted May 8th, 2003.",
+      "border" : ["Alabama", "Florida", "North Carolina", "South Carolina", "Tennessee"],
     },
     {
       "id" : "hawaii",
@@ -152,6 +163,7 @@
       "link" : "https://en.wikipedia.org/wiki/Hawaii",
       "abbreviation" : "HI",
       "historyflag" : "Hawaii was once an independent kingdom. (1810 - 1893) The flag was designed at the request of King Kamehameha I. It has eight stripes of white, red and blue that represent the eight main islands. The flag of Great Britain is emblazoned in the upper left corner to honor Hawaii's friendship with the British. The combination of the stripes of the United States flag and the Union Jack of Great Britain is said to have pleased the merchant shippers of both nations. Flag adopted for official state use in 1959.",
+      "border" : [],
     },
     {
       "id" : "idaho",
@@ -166,6 +178,7 @@
       "link" : "https://en.wikipedia.org/wiki/Idaho",
       "abbreviation" : "ID",
       "historyflag" : "A silk flag, blue field, five feet six inches fly, and four feet four inches on pike, bordered with gilt fringe two and one-half inches in width, with state seal of Idaho twenty-one inches in diameter, in colors, in the center of a blue field. The woman represents liberty, justice and equality. The man is a miner. The pictures on the shield represent the main industries of forestry, farming and mining. The cornucopias, or horn of plenty are symbols of abundance. The elks head represents wildlife. Esto perpetua (Let it be perpetual). The words 'State of Idaho' are embroidered in with block letters, two inches in height on a red band three inches in width by twenty-nine inches in length, the band being in gold and placed about eight and one-half inches from the lower border of fringe and parallel with the same. Flag adopted 1907.",
+      "border" : ["Montana", "Nevada", "Oregon", "Utah", "Washington", "Wyoming"],
     },
     {
       "id" : "illinois",
@@ -180,6 +193,7 @@
       "link" : "https://en.wikipedia.org/wiki/Illinois",
       "abbreviation" : "IL",
       "historyflag" : "The Illinois flag is a simple representation of the Great Seal of Illinois against a white background. In 1969, the General Assembly voted to add the word 'ILLINOIS' under the Great Seal of the flag. The State's name was added to the flag to ensure that people not familiar with the Great Seal of Illinois would still recognize the banner. Flag adopted 1915.",
+      "border" : ["Indiana", "Iowa", "Michigan", "Kentucky", "Missouri", "Wisconsin"],
     },
     {
       "id" : "indiana",
@@ -194,6 +208,7 @@
       "link" : "https://en.wikipedia.org/wiki/Indiana",
       "abbreviation" : "IN",
       "historyflag" : "The flags dimensions shall be three feet fly by two feet hoist; or five feet fly by three feet hoist; or any size proportionate to either of those dimensions. The field of the flag shall be blue with nineteen stars and a flaming torch in gold or buff. Thirteen stars shall be arranged in an outer circle, representing the original thirteen states; five stars shall be arranged in a half circle below the torch and inside the outer circle of stars, representing the states admitted prior to Indiana; and the nineteenth star, appreciably larger than the others and representing Indiana shall be placed above the flame of the torch. The outer circle of stars shall be so arranged that one star shall appear directly in the middle at the top of the circle, and the word 'Indiana' shall be placed in a half circle over and above the star representing Indiana and midway between it and the star in the center above it. Rays shall be shown radiating from the torch to the three stars on each side of the star in the upper center of the circle. Flag adopted 1917.",
+      "border" : ["Illinois", "Kentucky", "Michigan", "Ohio"],
     },
     {
       "id" : "iowa",
@@ -208,6 +223,7 @@
       "link" : "https://en.wikipedia.org/wiki/Iowa",
       "abbreviation" : "IA",
       "historyflag" : "Having three vertical stripes blue, white and red the Iowa flag resembles the flag of France. On the white stripe is a bald eagle carrying a blue streamer in its beak. The state motto 'Our Liberties We Prize, and Our Rights We will Maintain' is written on the streamer. The name of the state is emblazoned in red letters. Flag adopted 1921.",
+      "border" : ["Illinois", "Minnesota", "Missouri", "Nebraska", "South Dakota", "Wisconsin"],
     },
     {
       "id" : "kansas",
@@ -222,6 +238,7 @@
       "link" : "https://en.wikipedia.org/wiki/Kansas",
       "abbreviation" : "KS",
       "historyflag" : "On a navy blue field is a sunflower,the state flower. Also, the state seal and the words 'Kansas'. In the picture of the state seal are thirty-four stars representing the order of statehood. Above the stars is the motto 'To the Stars Through Difficulties'. On the seal a sunrise overshadows a farmer plowing a field near his log cabin, a steamboat sailing the Kansas River, a wagon train heading west and Native Americans hunting bison. Flag adopted 1927.",
+      "border" : ["Colorado", "Missouri", "Nebraska", "Oklahoma"],
     },
     {
       "id" : "kentucky",
@@ -236,6 +253,7 @@
       "link" : "https://en.wikipedia.org/wiki/Kentucky",
       "abbreviation" : "KY",
       "historyflag" : "Placed on a navy blue field is the seal and words 'Commonwealth of Kentucky'. The two friends shaking hands, a pioneer and a statesman, represent all the people. They are acting out the meaning of Kentucky's motto: 'United We Stand; Divided We Fall'. Sprays of the state flower {goldenrod} extend in a half circle around the picture. Flag adopted 1918 amended in 1928 & 1962.",
+      "border" : ["Illinois", "Indiana", "Missouri", "Ohio", "Tennessee", "Virginia", "West Virginia"],
     },
     {
       "id" : "louisiana",
@@ -250,6 +268,7 @@
       "link" : "https://en.wikipedia.org/wiki/Louisiana",
       "abbreviation" : "LA",
       "historyflag" : "The design consists of the pelican group from the state seal, in white and gold, and a white ribbon bearing the state motto, 'Union, Justice, and Confidence', on a field of a solid blue. Flag adopted 1912.",
+      "border" : ["Arkansas", "Mississippi", "Texas"],
     },
     {
       "id" : "maine",
@@ -264,6 +283,7 @@
       "link" : "https://en.wikipedia.org/wiki/Maine",
       "abbreviation" : "ME",
       "historyflag" : "The state coat of arms is placed on a blue field. In the center of the shield a moose rests under a tall pine tree. A farmer and seaman represents the work that people did in early times. The North Star represents the state motto: 'Dirigo' ('I Direct'). Flag adopted 1909.",
+      "border" : ["New Hampshire"],
     },
     {
       "id" : "maryland",
@@ -278,6 +298,7 @@
       "link" : "https://en.wikipedia.org/wiki/Maryland",
       "abbreviation" : "MD",
       "historyflag" : "The Maryland flag contains the family crest of the Calvert and Crossland families. Maryland was founded as an English colony in 1634 by Cecil Calvert, the second Lord Baltimore. The black and Gold designs belong to the Calvert family. The red and white design belongs to the Crossland family. Flag adopted 1904.",
+      "border" : ["Delaware", "Pennsylvania", "Virginia", "West Virginia"],
     },
     {
       "id" : "massachusetts",
@@ -292,6 +313,7 @@
       "link" : "https://en.wikipedia.org/wiki/Massachusetts",
       "abbreviation" : "MA",
       "historyflag" : "On a white field is a blue shield emblazoned with the image of a Native American, Massachuset. He holds a bow in one hand and an arrow in the other. The arrow is pointing downward representing peace. The white star represents Massachusetts as one of the original thirteen states. Around the shield is a blue ribbon with the motto: 'By the Sword We Seek Peace, but Peace Only Under Liberty'. Above the shield is a arm and sword, representing the first part of the motto. Flag adopted 1915, amended 1971.",
+      "border" : ["Connecticut", "New Hampshire", "New York", "Rhode Island", "Vermont"],
     },
     {
       "id" : "michigan",
@@ -306,6 +328,7 @@
       "link" : "https://en.wikipedia.org/wiki/Michigan",
       "abbreviation" : "MI",
       "historyflag" : "The design on Michigan's deep blue field has three mottoes: On a red ribbon - 'One Nation Made Up of Many States'; On a blue shield - 'I will Defend'; On a white ribbon - 'If You Seek a Pleasant Peninsula, Look Around'; On the blue shield the sun rises over a lake and peninsula, a man with raised hand and holding a gun represents peace and the ability to defend his rights. The elk and moose are symbols of Michigan, while the eagle represents the United States. Flag adopted 1911.",
+      "border" : ["Illinois", "Indiana", "Ohio", "Wisconsin"],
     },
     {
       "id" : "minnesota",
@@ -320,6 +343,7 @@
       "link" : "https://en.wikipedia.org/wiki/Minnesota",
       "abbreviation" : "MN",
       "historyflag" : "The Minnesota state flag is royal blue, with a gold fringe. In the center of the flag is the state seal. Around the state seal is a wreath of the state flower, the lady slipper. Three dates are woven into the wreath: 1858, the year Minnesota became a state; 1819, the year Fort Snelling was established; and 1893, the year the official flag was adopted. Nineteen stars ring the wreath. The largest star represents Minnesota.",
+      "border" : ["Iowa", "North Dakota", "South Dakota", "Wisconsin"],
     },
     {
       "id" : "mississippi",
@@ -334,6 +358,7 @@
       "link" : "https://en.wikipedia.org/wiki/Mississippi",
       "abbreviation" : "MS",
       "historyflag" : "The committee to design On November 3, 2020, the flag was approved by state referendum by the Commission to Redesign committee. The previous flag had an emblem of the confederate flag and was voted out after national public outcry. This new flag passed and became the official state flag of Mississippi on January 11, 2021. The design that features a white magnolia blossom, is the official state flower, and “In God We Trust” is the official Motto of the United States. The 20 stars signifies Mississippi's status as the 20th state admitted to the union, and a gold five-point star reflects Mississippi's indigenous Native American tribes.",
+      "border" : ["Alabama", "Arkansas", "Louisiana", "Tennessee"],
     },
     {
       "id" : "missouri",
@@ -348,6 +373,7 @@
       "link" : "https://en.wikipedia.org/wiki/Missouri",
       "abbreviation" : "MO",
       "historyflag" : "Centered on red, white and blue fields is the Missouri state seal. It is encircled by a blue band with twenty-four stars representing the number of states in 1821. The stars in the inner circle have the same meaning. Two huge grizzly bears support the circular shield in the center which has three parts: 1) The motto 'United We Stand,Divided we Fall'. 2) The right section representingthe United States. 3) The left section containing a moon representing a new state and a grizzly bear standing for courage. 4) The flag was designed by Mrs. Marie Elizabeth Oliver of Cape Girardeau, Missouri. Flag adopted 1913.",
+      "border" : ["Arkansas", "Illinois", "Iowa", "Kansas", "Kentucky", "Nebraska", "Oklahoma", "Tennessee"],
     },
     {
       "id" : "montana",
@@ -362,6 +388,7 @@
       "link" : "https://en.wikipedia.org/wiki/Montana",
       "abbreviation" : "MT",
       "historyflag" : "Under the word 'Montana',on a blue field, is the state seal. The seal shows some of Montana's beautiful scenery and tells what people were doing in pioneer times. The pick, shovel and plow represent mining and farming. In the background a sun rises over mountains, forests and the Great Falls of the Missouri river. A ribbon contains the state motto 'Gold and Silver'. Flag adopted 1905 amended 1981.",
+      "border" : ["Idaho", "North Dakota", "South Dakota", "Wyoming"],
     },
     {
       "id" : "Nebraska",
@@ -376,6 +403,7 @@
       "link" : "https://en.wikipedia.org/wiki/Nebraska",
       "abbreviation" : "NE",
       "historyflag" : "A banner for the State of Nebraska shall consist of a reproduction of the great seal of the state, charged on the center in gold and silver on a field of national blue.",
+      "border" : ["Colorado", "Iowa", "Kansas", "Missouri", "South Dakota", "Wyoming"],
     },
     {
       "id" : "nevada",
@@ -390,6 +418,7 @@
       "link" : "https://en.wikipedia.org/wiki/Nevada",
       "abbreviation" : "NV",
       "historyflag" : "On a cobalt blue background in the upper left quarter is a five-pointed silver star between two sprays of sagebrush crossed to form a half wreath; across the top of the wreath is a golden scroll with the words, in black letters, 'Battle Born'. The name 'Nevada' is beneath the star in gold letters. The current Nevada State Flag design was adopted March 26, 1929, and revised in 1991.",
+      "border" : ["Arizona", "California", "Idaho", "Oregon", "Utah"],
     },
     {
       "id" : "newhampshire",
@@ -404,6 +433,7 @@
       "link" : "https://en.wikipedia.org/wiki/New_Hampshire",
       "abbreviation" : "NH",
       "historyflag" : "The state flag shall be of the following color and design: The body or field shall be blue and shall bear upon its center in suitable proportion and colors a representation of the state seal. The seal shall be surrounded by a wreath of laurel leaves with nine stars interspersed.",
+      "border" : ["Maine", "Massachusetts", "Vermont"],
     },
     {
       "id" : "newjersey",
@@ -418,6 +448,7 @@
       "link" : "https://en.wikipedia.org/wiki/New_Jersey",
       "abbreviation" : "NJ",
       "historyflag" : "The State flag of New Jersey is buff colored. The state coat of arms is emblazoned in the center. The shield has three plows with a horse's head above it. Two women represent the goddesses of Liberty and Agriculture. A ribbon at the bottom includes the year of independence in 1776 and reads: Liberty and Prosperity. The New Jersey state flag was formally adopted in 1896.",
+      "border" : ["Delaware", "New York", "Pennsylvania"],
     },
     {
       "id" : "newmexico",
@@ -432,6 +463,7 @@
       "link" : "https://en.wikipedia.org/wiki/New_Mexico",
       "abbreviation" : "NM",
       "historyflag" : "The yellow field and red symbol colors are the colors of Spain. First brought to New Mexico by Spanish explorers in 1540. On New Mexico's flag we see a red sun with rays streching out from it. There are four groups of rays with four rays in each group. This is an ancient sun symbol of a Native American people called the Zia. The Zia believed that the giver of all good gave them gifts in groups of four. These gifts are: 1) The four directions - north, east, south and west. 2) The four seasons - spring, summer, fall and winter. 3) The day - sunrise, noon, evening and night. 4) Life itself - childhood, youth, middle years and old age. 5) All of these are bound by a circle of life and love, without a beginning or end.",
+      "border" : ["Arizona", "Colorado", "Oklahoma", "Texas", "Utah"],
     },
     {
       "id" : "newyork",
@@ -446,6 +478,7 @@
       "link" : "https://en.wikipedia.org/wiki/New_York",
       "abbreviation" : "NY",
       "historyflag" : "Emblazoned on a dark blue field is the state coat of arms. The goddess Liberty holds a pole with a Liberty Cap on top. Liberty stands for freedom. At her feet is a discarded crown, representing freedom from England at the end of the revolutionary war. On the right is the goddess, Justice. She wears a blindfold and carries the scales of justice. Meaning that everyone receives equal treatment under the law. The state motto 'Excelsior' on a white ribbon expresses the idea of reaching upward to higher goals. On the shield a sun rises over the Hudson highlands and ships sail the Hudson river. Above the shield is an eagle resting on a globe representing the Western Hemisphere.",
+      "border" : ["Connecticut", "Massachusetts", "New Jersey", "Pennsylvania", "Vermont"],
     },
     {
       "id" : "northcarolina",
@@ -460,6 +493,7 @@
       "link" : "https://en.wikipedia.org/wiki/North_Carolina",
       "abbreviation" : "NC",
       "historyflag" : "That the flag of North Carolinashall consist of a blue union, containing in the center thereof a white star with the letter N in gilt on the left and the letter C in gilt on the right of said star, the circle containing the same to be one-third the width of the union. The fly of the flag shall consist of two equally proportioned bars; the upper bar to be red, the lower bar to be white; that the length of the bars horizontally shall be equal to the perpendicular length of the union, and the total length of the flag shall be one-third more than its width. That above the star in the center of the union there shall be a gilt scroll in semi-circular form, containing in black letters this inscription 'May 20th, 1775', and that below the star there shall be a similar scroll containing in black letters the inscription: 'April 12th, 1776'.",
+      "border" : ["Georgia", "South Carolina", "Tennessee", "Virginia"],
     },
     {
       "id" : "northdakota",
@@ -474,6 +508,7 @@
       "link" : "https://en.wikipedia.org/wiki/North_Dakota",
       "abbreviation" : "ND",
       "historyflag" : "North Dakota's dark blue field displays a bald eagle holding an olive branch and a bundle of arrows in its claws. In its beak, the eagle carries a ribbon with the words 'One nation made up of many states'. The shield on its breast has thirteen stars, representing the original thirteen states. The fan shaped design above the eagle represents the birth of a new nation, the United States. The name 'North Dakota' appears on a red scroll below the eagle.",
+      "border" : ["Minnesota", "Montana", "South Dakota"],
     },
     {
       "id" : "ohio",
@@ -488,6 +523,7 @@
       "link" : "https://en.wikipedia.org/wiki/Ohio",
       "abbreviation" : "OH",
       "historyflag" : "Ohio's state flag was adopted in 1902. The Ohio burgee, as the swallowtail design is properly called, was designed by John Eisemann. The large blue triangle represents Ohio's hills and valleys, and the stripes represent roads and waterways. The 13 stars grouped about the circle represent the original states of the union; the 4 stars added to the peak of the triangle symbolize that Ohio was the 17th state admitted to the union. The white circle with its red center not only represents the 'O' in Ohio, but also suggests Ohio's famous, 'The Buckeye State'.",
+      "border" : ["Indiana", "Kentucky", "Michigan", "Pennsylvania", "West Virginia"],
     },
     {
       "id" : "oklahoma",
@@ -502,6 +538,7 @@
       "link" : "https://en.wikipedia.org/wiki/Oklahoma",
       "abbreviation" : "OK",
       "historyflag" : "The Oklahoma state flag honors more than 60 groups of Native Americans and their ancestors. The blue field comes from a flag carried by Choctaw soldiers during the civil war. The center shield is the battle shield of an Osage warrior. It is made of buffalo hide and decorated with eagle feathers. Two symbols of peace lie across the shield. One is the calumet, or peace pipe. The other is an olive branch. Crosses on the shield are Native American signs for stars, representing high ideals.",
+      "border" : ["Arkansas", "Colorado", "Kansas", "Missouri",  "New Mexico", "Texas"],
     },
     {
       "id" : "oregon",
@@ -516,6 +553,7 @@
       "link" : "https://en.wikipedia.org/wiki/Oregon",
       "abbreviation" : "OR",
       "historyflag" : "The flag of Oregon is the only state flag with different pictures on each side. On the reverse appears a beaver the state animal. Both sides have a field of navy blue with design in gold. The front picture includes a heart shaped shield with an eagle on top,surronded by thirty-three stars. (The number of states in 1859.) The scene on the shield shows the sun setting over the Pacific Ocean, mountains, forests and a covered wagon. A plow, wheat and pickax represent farming and mining. Of the two ships: The one leaving is a British ship and the one arriving is a United States ship representing trade. The eagle represents the United States. On a banner are the words 'The Union' representing support for the United States. Finally the flag is emblazoned with the words 'State of Oregon' above the picture and the date of statehood '1859' below.",
+      "border" : ["California", "Idaho", "Nevada", "Washington"],
     },
     {
       "id" : "pennsylvania",
@@ -530,6 +568,7 @@
       "link" : "https://en.wikipedia.org/wiki/Pennsylvania",
       "abbreviation" : "PA",
       "historyflag" : "Pennsylvania's State Flag is composed of a blue field on which is embroidered the State Coat of Arms. The first State Flag bearing the State Coat of Arms was authorized by the General Assembly in 1799. An act of the General Assembly of June 13, 1907, standardized the flag and required that the blue field match the blue of Old Glory.",
+      "border" : ["Delaware", "Maryland", "New Jersey", "New York", "Ohio", "West Virginia"],
     },
     {
       "id" : "rhodeisland",
@@ -544,6 +583,7 @@
       "link" : "https://en.wikipedia.org/wiki/Rhode_Island",
       "abbreviation" : "RI",
       "historyflag" : "Placed on a white field is a circle of thirteen gold stars representing the first thirteen states. The stars surround a gold ship's anchor. The state's motto 'Hope' is on a blue ribbon below the anchor.",
+      "border" : ["Connecticut", "Massachusetts"],
     },
     {
       "id" : "southcarolina",
@@ -558,6 +598,7 @@
       "link" : "https://en.wikipedia.org/wiki/South_Carolina",
       "abbreviation" : "SC",
       "historyflag" : "Asked by the Revolutionary Council of Safety in the fall of 1775 to design a flag for the use of South Carolina troops, Col. William Moultrie chose a blue which matched the color of their uniforms and a crescent which reproduced the silver emblem worn on the front of their caps. The palmetto tree was added later to represent Moultrie's heroic defense of the palmetto-log fort on Sullivan's Island against the attack of the British fleet on June 28, 1776.",
+      "border" : ["Georgia", "North Carolina"],
     },
     {
       "id" : "southdakota",
@@ -572,6 +613,7 @@
       "link" : "https://en.wikipedia.org/wiki/South_Dakota",
       "abbreviation" : "SD",
       "historyflag" : "The South Dakota flag features the state seal surrounded by a golden blazing sun in a field of sky blue. Letters reading 'South Dakota, The Mount Rushmore State' -- the official state nickname -- are arranged in a circle around the sun.",
+      "border" : ["Iowa", "Minnesota", "Montana",  "Nebraska",  "North Dakota", "Wyoming"],
     },
     {
       "id" : "tennessee",
@@ -586,6 +628,7 @@
       "link" : "https://en.wikipedia.org/wiki/Tennessee",
       "abbreviation" : "TN",
       "historyflag" : "The three stars on the flag represent the three different land forms in Tennessee. Mountains in the east, highlands in the middle and lowlands in the west. On the flag these regions are bound together in an unbroken circle. The field is crimson with a blue background for the stars. The final blue strip relieves the sameness of the crimson field and prevents the flag from showing too much crimson when it is limp.",
+      "border" : ["Alabama", "Arkansas", "Georgia", "Kentucky", "Mississippi", "Missouri", "North Carolina", "Virginia"],
     },
     {
       "id" : "texas",
@@ -600,6 +643,7 @@
       "link" : "https://en.wikipedia.org/wiki/Texas",
       "abbreviation" : "TX",
       "historyflag" : "The flag was adopted as the state flag when Texas became the 28th state in 1845. As with the flag of the United States, the blue stands for loyalty, the white represents strength, and the red is for bravery.",
+      "border" : ["Arkansas", "Louisiana", "New Mexico", "Oklahoma"],
     },
     {
       "id" : "utah",
@@ -614,6 +658,7 @@
       "link" : "https://en.wikipedia.org/wiki/Utah",
       "abbreviation" : "UT",
       "historyflag" : "On a blue field, appears the state seal. In the center of the seal is a beehive, the state emblem, with a sego lily growing on either side. The sego lily stands for peace. The state motto 'Industry' means steady effort. A national flag shows that Utah supports the United States. The eagle stands for protection in peace and war. The date 1847 represents the year that Brigham Young led a group of people to the Salt Lake Valley to reestablish in Utah, the Church of Jesus Christ of Latter day Saints, also know as The Mormons. The date 1896 represents the year that Utah gained admission to the Union of the United States.",
+      "border" : ["Arizona", "Colorado", "Idaho", "Nevada", "New Mexico", "Wyoming"],
     },
     {
       "id" : "vermont",
@@ -628,6 +673,7 @@
       "link" : "https://en.wikipedia.org/wiki/Vermont",
       "abbreviation" : "VT",
       "historyflag" : "The picture on a deep blue field is a scene painting. You see a tall pine tree, a cow and sheaves of wheat. The Green Mountains are in the distance. Pine boughs extend around a shield. The name 'Vermont' and the state motto 'Freedom and Unity' are displayed on a crimson banner. At the the top of the shield is a stag's head.",
+      "border" : ["Massachusetts", "New Hampshire", "New York"],
     },
     {
       "id" : "virginia",
@@ -642,6 +688,7 @@
       "link" : "https://en.wikipedia.org/wiki/Virginia",
       "abbreviation" : "VA",
       "historyflag" : "A deep blue field contains the seal of Virginia with the Latin motto 'Sic Semper Tyrannis' - 'Thus Always to Tyrants'. Adopted in 1776. The two figures are acting out the meaning of the motto. Both are dressed as warriors. The woman, Virtue, represents Virginia. The man holding a scourge and chain shows that he is a tyrant. His fallen crown is nearby.",
+      "border" : [],
     },
     {
       "id" : "washington",
@@ -656,6 +703,7 @@
       "link" : "https://en.wikipedia.org/wiki/Washington",
       "abbreviation" : "WA",
       "historyflag" : "The state flag and the state seal are similar. Passed in 1923, Washington state law describes the flag as having dark green bunting with a state seal in the center. It is the only state flag that is green. It is also the only state flag with a picture of a president.",
+      "border" : ["Kentucky", "Maryland", "North Carolina", "Tennessee", "West Virginia"],
     },
     {
       "id" : "westvirginia",
@@ -670,6 +718,7 @@
       "link" : "https://en.wikipedia.org/wiki/West_Virginia",
       "abbreviation" : "WV",
       "historyflag" : "A white field is bordered in dark blue. West Virginia's flag displays a rock containing the date June 20, 1863, the day West Virginia became a state. The two men represent farming and mining. Below them are two rifles with a 'Liberty Cap' on top the rifles. A banner ribbon includes the state motto 'Mountaineers Are Always Free'. Around the picture are a wreath of rhododendron and the name of the state on a red ribbon.",
+      "border" : ["Kentucky", "Maryland", "Ohio", "Pennsylvania", "Virginia"],
     },
     {
       "id" : "wisconsin",
@@ -684,6 +733,7 @@
       "link" : "https://en.wikipedia.org/wiki/Wisconsin",
       "abbreviation" : "WI",
       "historyflag" : "Starting at the top of a shield on a dark blue field is the state motto 'Forward'. Below it is a badger the state animal. A sailor and miner show that the people work on water and land. The shield in the center shows Wisconsin's support for the United States. In four sections surrounding the shield are representations of the states main industries: agriculture, mining, manufacturing and navigation. The cornucopia and pile of lead represent farm products and minerals. The flag law was amended in 1979 to include the name of the state and the date of statehood.",
+      "border" : ["Illinois", "Iowa", "Michigan", "Minnesota"],
     },
     {
       "id" : "wyoming",
@@ -698,5 +748,6 @@
       "link" : "https://en.wikipedia.org/wiki/Wyoming",
       "abbreviation" : "WY",
       "historyflag" : "A bison on a blue field bordered in white and red. The state seal branded on the bison. The woman represents the state motto 'Equal Rights' and the two men represent cattle ranchers and miners. The words 'Livestock', 'Mines', 'Grains' and 'Oil' represent Wyoming's wealth. The eagle and shield show support for the United States. The dates 1869 and 1890 tell when Wyoming organized as a territory of the United States and when it became a state.",
+      "border" : ["Colorado", "Idaho", "Montana", "Nebraska", "South Dakota", "Utah"],
     },
 ]
