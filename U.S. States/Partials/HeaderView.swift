@@ -19,7 +19,7 @@ struct HeaderView: View {
                 .imageScale(.large)
             Text(headingText)
                 .font(.title3)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
         }//: HStack
         .padding(.vertical)
     }

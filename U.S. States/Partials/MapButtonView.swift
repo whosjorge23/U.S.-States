@@ -49,6 +49,6 @@ struct MapButtonView_Previews: PreviewProvider {
 
     
     static var previews: some View {
-        MapButtonView(stateOfAmerica: stateOfAmerica[30])
+        MapButtonView(stateOfAmerica: stateOfAmerica[4])
     }
 }

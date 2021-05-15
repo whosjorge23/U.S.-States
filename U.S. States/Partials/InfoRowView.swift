@@ -16,8 +16,8 @@ struct InfoRowView: View {
     
     // MARK: - BODY
     var body: some View {
-        VStack {
-            Divider().padding(.vertical, 4)
+        VStack() {
+            Divider().padding(.vertical, 4).opacity(0.0)
             HStack{
                 Text(name).foregroundColor(.gray)
                 Spacer()

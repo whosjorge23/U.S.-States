@@ -45,6 +45,6 @@ struct MapAnnotationView_Previews: PreviewProvider {
 
     
     static var previews: some View {
-        MapAnnotationView(stateOfAmerica: stateOfAmerica[30])
+        MapAnnotationView(stateOfAmerica: stateOfAmerica[4])
     }
 }

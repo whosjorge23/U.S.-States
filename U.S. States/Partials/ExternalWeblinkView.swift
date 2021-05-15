@@ -31,6 +31,6 @@ struct ExternalWeblinkView_Previews: PreviewProvider {
     static let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
     
     static var previews: some View {
-        USStateListView(stateOfAmerica: stateOfAmerica[30])
+        USStateListView(stateOfAmerica: stateOfAmerica[4])
     }
 }

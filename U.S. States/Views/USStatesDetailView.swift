@@ -54,11 +54,39 @@ struct USStatesDetailView: View {
                 //Seal
                 HeaderView(headingImage: "binoculars", headingText: "Seal")
                 GroupBox {
-                    TabView {
-                        Image("Seal_of_\(stateOfAmerica.name)")
-                    }//: TabView
-                    .tabViewStyle(PageTabViewStyle())
-                    .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
+                    if stateOfAmerica.name == "Connecticut" {
+                        TabView {
+                            ZStack{
+                                Image("Seal_of_\(stateOfAmerica.name)")
+                                    .background(Circle().foregroundColor(.white))
+                                Image("Seal_of_\(stateOfAmerica.name)")
+                            }
+                            
+                            
+                        }//: TabView
+                        .tabViewStyle(PageTabViewStyle())
+                        .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
+                        .padding(.vertical,50)
+                    }else {
+                        TabView {
+                            if stateOfAmerica.name == "New Jersey" {
+                                ZStack{
+                                    Image("Seal_of_\(stateOfAmerica.name)")
+                                        .background(Circle().foregroundColor(.white))
+                                    Image("Seal_of_\(stateOfAmerica.name)")
+                                }
+                            }else {
+                                Image("Seal_of_\(stateOfAmerica.name)")
+                            }
+                            
+                            
+                            
+                        }//: TabView
+                        .tabViewStyle(PageTabViewStyle())
+                        .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
+                        .padding(.vertical,25)
+                    }
+                    
                     
                 }//: GroupBox
                 .padding()
@@ -98,13 +126,14 @@ struct USStatesDetailView: View {
                             }//: VStack
                         }
                     }
-                    Divider().frame(height: 2).background(Color.yellow).opacity(0.5)
+//                    Divider().frame(height: 2).background(Color.yellow).opacity(0.5).padding(.horizontal)
                     //LINK
                     HeaderView(headingImage: "books.vertical", headingText: "Learn More")
                     ExternalWeblinkView(stateOfAmerica: stateOfAmerica)
+                        .padding(.horizontal)
                     
                 }//: Group
-                .padding(.horizontal)
+                
                 
             }//: VStack
             .navigationBarTitle("Learn About \(stateOfAmerica.name)", displayMode: .inline)
@@ -117,6 +146,6 @@ struct USStatesDetailView_Previews: PreviewProvider {
     static let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
     
     static var previews: some View {
-        USStatesDetailView(stateOfAmerica: stateOfAmerica[30])
+        USStatesDetailView(stateOfAmerica: stateOfAmerica[4])
     }
 }

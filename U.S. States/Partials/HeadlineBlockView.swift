@@ -31,6 +31,6 @@ struct HeadlineBlockView_Previews: PreviewProvider {
     static let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
     
     static var previews: some View {
-        HeadlineBlockView(stateOfAmerica: stateOfAmerica[30])
+        HeadlineBlockView(stateOfAmerica: stateOfAmerica[4])
     }
 }
