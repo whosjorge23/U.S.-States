@@ -16,6 +16,7 @@
 		ED0633B3264AC2AA0003EF67 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0633B2264AC2AA0003EF67 /* MapAnnotationView.swift */; };
 		ED0633B6264AE1CE0003EF67 /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0633B5264AE1CD0003EF67 /* HeadlineView.swift */; };
 		ED17FF0A264C1C4E00A5538E /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17FF09264C1C4E00A5538E /* ExternalWeblinkView.swift */; };
+		ED2B99A3265F9C5F00982806 /* CircleTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B99A2265F9C5F00982806 /* CircleTabBarView.swift */; };
 		ED8A7E51264EB80300D2203F /* HeadlineBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A7E50264EB80300D2203F /* HeadlineBlockView.swift */; };
 		EDCAA95626494A4A001FEF33 /* U_S__StatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA95526494A4A001FEF33 /* U_S__StatesApp.swift */; };
 		EDCAA95826494A4A001FEF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA95726494A4A001FEF33 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 		ED0633B2264AC2AA0003EF67 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		ED0633B5264AE1CD0003EF67 /* HeadlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineView.swift; sourceTree = "<group>"; };
 		ED17FF09264C1C4E00A5538E /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		ED2B99A2265F9C5F00982806 /* CircleTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTabBarView.swift; sourceTree = "<group>"; };
 		ED8A7E50264EB80300D2203F /* HeadlineBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineBlockView.swift; sourceTree = "<group>"; };
 		EDCAA95226494A4A001FEF33 /* U.S. States.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "U.S. States.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCAA95526494A4A001FEF33 /* U_S__StatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_S__StatesApp.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				ED01EF9C264D834300375D0E /* InfoView.swift */,
 				EDCAA97826497224001FEF33 /* USStatesDetailView.swift */,
 				ED0633AF264AC2320003EF67 /* MapView.swift */,
+				ED2B99A2265F9C5F00982806 /* CircleTabBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				ED01EF96264D642700375D0E /* ListView.swift in Sources */,
 				EDCAA96A2649692D001FEF33 /* CodableBundleExtension.swift in Sources */,
 				ED0633B0264AC2330003EF67 /* MapView.swift in Sources */,
+				ED2B99A3265F9C5F00982806 /* CircleTabBarView.swift in Sources */,
 				ED01EF9D264D834300375D0E /* InfoView.swift in Sources */,
 				ED8A7E51264EB80300D2203F /* HeadlineBlockView.swift in Sources */,
 				EDF7CB3726499FEF008CCD02 /* HeaderView.swift in Sources */,
