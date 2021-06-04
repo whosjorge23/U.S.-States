@@ -20,9 +20,13 @@ struct CircleTabBarView: View {
                 VStack(alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
                     if self.index != 0 {
                         Image("tabicon-uslist")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 45, height: 43)
                     }else {
                         Image("tabicon-uslist")
                             .resizable()
+                            .scaledToFit()
                             .frame(width: 45, height: 43)
                             .padding()
                             .background(Color.white.opacity(0.20))
@@ -42,9 +46,13 @@ struct CircleTabBarView: View {
                 VStack(alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
                     if self.index != 1 {
                         Image("tabicon-usmap")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 43, height: 43)
                     }else {
                         Image("tabicon-usmap")
                             .resizable()
+                            .scaledToFit()
                             .frame(width: 43, height: 43)
                             .padding()
                             .background(Color.white.opacity(0.20))
@@ -63,9 +71,13 @@ struct CircleTabBarView: View {
                 VStack(alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
                     if self.index != 2 {
                         Image("tabicon-person")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 45, height: 43)
                     }else {
                         Image("tabicon-person")
                             .resizable()
+                            .scaledToFit()
                             .frame(width: 45, height: 43)
                             .padding()
                             .background(Color.white.opacity(0.20))

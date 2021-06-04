@@ -18,6 +18,9 @@
 		ED17FF0A264C1C4E00A5538E /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17FF09264C1C4E00A5538E /* ExternalWeblinkView.swift */; };
 		ED2B99A3265F9C5F00982806 /* CircleTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B99A2265F9C5F00982806 /* CircleTabBarView.swift */; };
 		ED8A7E51264EB80300D2203F /* HeadlineBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A7E50264EB80300D2203F /* HeadlineBlockView.swift */; };
+		ED9C0373266A80310098E938 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C0372266A80310098E938 /* MainView.swift */; };
+		ED9C0376266A80660098E938 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C0375266A80660098E938 /* ViewRouter.swift */; };
+		ED9C0379266A80E70098E938 /* DarkTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C0378266A80E70098E938 /* DarkTabBar.swift */; };
 		EDCAA95626494A4A001FEF33 /* U_S__StatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA95526494A4A001FEF33 /* U_S__StatesApp.swift */; };
 		EDCAA95826494A4A001FEF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAA95726494A4A001FEF33 /* ContentView.swift */; };
 		EDCAA95A26494A50001FEF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCAA95926494A50001FEF33 /* Assets.xcassets */; };
@@ -43,6 +46,9 @@
 		ED17FF09264C1C4E00A5538E /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 		ED2B99A2265F9C5F00982806 /* CircleTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTabBarView.swift; sourceTree = "<group>"; };
 		ED8A7E50264EB80300D2203F /* HeadlineBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineBlockView.swift; sourceTree = "<group>"; };
+		ED9C0372266A80310098E938 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ED9C0375266A80660098E938 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		ED9C0378266A80E70098E938 /* DarkTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTabBar.swift; sourceTree = "<group>"; };
 		EDCAA95226494A4A001FEF33 /* U.S. States.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "U.S. States.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCAA95526494A4A001FEF33 /* U_S__StatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U_S__StatesApp.swift; sourceTree = "<group>"; };
 		EDCAA95726494A4A001FEF33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				EDCAA95726494A4A001FEF33 /* ContentView.swift */,
+				ED9C0372266A80310098E938 /* MainView.swift */,
+				ED9C0375266A80660098E938 /* ViewRouter.swift */,
+				ED9C0378266A80E70098E938 /* DarkTabBar.swift */,
 				ED01EF95264D642700375D0E /* ListView.swift */,
 				ED01EF9C264D834300375D0E /* InfoView.swift */,
 				EDCAA97826497224001FEF33 /* USStatesDetailView.swift */,
@@ -242,11 +251,14 @@
 				ED01EFA0264D857C00375D0E /* FooterView.swift in Sources */,
 				ED01EF92264D603700375D0E /* MapButtonView.swift in Sources */,
 				EDCAA95826494A4A001FEF33 /* ContentView.swift in Sources */,
+				ED9C0379266A80E70098E938 /* DarkTabBar.swift in Sources */,
 				ED0633B6264AE1CE0003EF67 /* HeadlineView.swift in Sources */,
 				EDCAA95626494A4A001FEF33 /* U_S__StatesApp.swift in Sources */,
 				EDCAA97626496F80001FEF33 /* USStateListView.swift in Sources */,
 				ED01EF96264D642700375D0E /* ListView.swift in Sources */,
+				ED9C0373266A80310098E938 /* MainView.swift in Sources */,
 				EDCAA96A2649692D001FEF33 /* CodableBundleExtension.swift in Sources */,
+				ED9C0376266A80660098E938 /* ViewRouter.swift in Sources */,
 				ED0633B0264AC2330003EF67 /* MapView.swift in Sources */,
 				ED2B99A3265F9C5F00982806 /* CircleTabBarView.swift in Sources */,
 				ED01EF9D264D834300375D0E /* InfoView.swift in Sources */,
