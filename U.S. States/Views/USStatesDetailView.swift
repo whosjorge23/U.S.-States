@@ -58,15 +58,19 @@ struct USStatesDetailView: View {
                         TabView {
                             ZStack{
                                 Image("Seal_of_\(stateOfAmerica.name)")
+                                    .resizable()
+                                    .frame(width: 200, height: 250, alignment: Alignment.center)
                                     .background(Circle().foregroundColor(.white))
                                 Image("Seal_of_\(stateOfAmerica.name)")
+                                    .resizable()
+                                    .frame(width: 200, height: 250, alignment: Alignment.center)
                             }
                             
                             
                         }//: TabView
                         .tabViewStyle(PageTabViewStyle())
-                        .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
-                        .padding(.vertical,50)
+                        .frame(minHeight: 148, idealHeight: 250, maxHeight: 250)
+                        .padding(.vertical,8.0)
                     }else {
                         TabView {
                             if stateOfAmerica.name == "New Jersey" {
@@ -83,8 +87,8 @@ struct USStatesDetailView: View {
                             
                         }//: TabView
                         .tabViewStyle(PageTabViewStyle())
-                        .frame(minHeight: 148, idealHeight: 168, maxHeight: 180)
-                        .padding(.vertical,25)
+                        .frame(minHeight: 148, idealHeight: 200, maxHeight: 200)
+                        .padding(.vertical,8.0)
                     }
                     
                     
@@ -146,6 +150,6 @@ struct USStatesDetailView_Previews: PreviewProvider {
     static let stateOfAmerica : [StateUS] = Bundle.main.decode("usstates.json")
     
     static var previews: some View {
-        USStatesDetailView(stateOfAmerica: stateOfAmerica[4])
+        USStatesDetailView(stateOfAmerica: stateOfAmerica[6])
     }
 }
